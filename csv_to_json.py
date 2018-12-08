@@ -2,7 +2,13 @@ import csv, json
 import unicodedata
 import requests
 
+
+PATH = '/Users/victorguerand/test_Archive/formatage_donnee/03_le_politique_parle_au_citoyen/Rocard - Allocutions - Inventaire/FRAN_IR_050330_Rocard_allocutions.csv'
+
+PATH_PHOTO = '/Users/victorguerand/test_Archive/formatage_donnee/03_le_politique_parle_au_citoyen/Rocard - Reportages photographiques - Inventaire/rocard_FRAN_IR_050535_photos.csv'
+
 def save_new_json(name, value):
+	print('done')
 	with open(name, 'w', encoding='utf8') as outfile:
 		json.dump(value, outfile)
 
@@ -12,42 +18,44 @@ def remove_accents(input_str):
 
 def create_json_discours() :
 	data = []
-	with open('03_le_politique_parle_au_citoyen\Rocard - Allocutions - Inventaire\FRAN_IR_050330_Rocard_allocutions.csv', newline='') as csvfile:
-		try :
-			spamreader  = csv.reader(csvfile, delimiter=';')
-		except Exception as e:
-			print (e)
-		try:
-			for row in spamreader:
-					lieux = remove_accents((row[5].split(","))[0])
-					if (lieux != "S. l."):
-						departement = lieux.split('(')
-						if (len(departement) == 2) :
-							lieux = departement[0][:-1]
-						try :
-							r = requests.get("https://geo.api.gouv.fr/communes?nom="+lieux+"&fields=centre&format=json&geometry=centre")
-						except Exception as e:
-							print (e)
-						ret = r.json()
-						if ret :
-							my_row ={
-								"id": row[7] + "-" + lieux,
-								"date": row[7],
-								"lieu": lieux,
-								"longitude": ret[0]['centre']['coordinates'][0],
-								"latitude": ret[0]['centre']['coordinates'][1],
-								"typologie": remove_accents(row[6]),
-								"path": row[10],
-								"auteur": "Rocard" 
-								}
-							data.append(my_row)
-			save_new_json(Discours.json, data)
-		except Exception as e:
-			print (e)
+	csv_read = []
+	with open(PATH, newline='') as csvfile:
+		spamreader = csv.reader(csvfile, delimiter=';')
+		for row in spamreader:
+			csv_read.append(row)
+	i = 0
+	print(spamreader)
+	for row in csv_read:
+		lieux = remove_accents((row[5].split(","))[0])
+		if (lieux != "S. l."):
+			departement = lieux.split('(')
+			if (len(departement) == 2) :
+				lieux = departement[0][:-1]
+			try :
+				r = requests.get("https://geo.api.gouv.fr/communes?nom="+lieux+"&fields=centre&format=json&geometry=centre")
+				ret = r.json()
+			except Exception as e:
+				print (e)
+			if ret :
+				my_row ={
+					"id": row[7] + "-" + lieux,
+					"date": row[7],
+					"lieu": lieux,
+					"longitude": ret[0]['centre']['coordinates'][0],
+					"latitude": ret[0]['centre']['coordinates'][1],
+					"typologie": remove_accents(row[6]),
+					"path": row[10],
+					"auteur": "Rocard"
+					}
+				data.append(my_row)
+		print(i)
+		i += 1
+	print(data)
+	save_new_json('Discours.json', data)
 
 def create_json_photo() :
 	with open('Photo.json', 'w', encoding='utf8') as outfile:
-		with open('03_le_politique_parle_au_citoyen\Rocard - Reportages photographiques - Inventaire\\rocard_FRAN_IR_050535_photos.csv', newline='') as csvfile:
+		with open(PATH_PHOTO, newline='') as csvfile:
 			spamreader  = csv.reader(csvfile, delimiter=';')
 			try:
 				i = 0
