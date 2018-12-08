@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="exercise_xslt-vers_csv_pour.rocard"?>
+<?xml-stylesheet type="text/css" href="ead.css"?>
+<!DOCTYPE ead SYSTEM "ead_sia.dtd">
+<ead>
+<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="DC" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid>FRAN_IR_050535</eadid> 
+ <filedesc> 
+  <titlestmt> 
+   <titleproper>Albums offerts à Michel Rocard, Premier ministre (1988-1991).</titleproper>
+    <subtitle>Répertoire numérique détaillé des albums du fonds 680AP (680AP/400-680AP/423)</subtitle>
+    <author>Établi par Virginie Grégoire, secrétaire de documentation. Sous la direction de Zenaïde Romaneix, conservateur du patrimoine et Isabelle Aristide, responsable du Département des archives privées</author>
+   </titlestmt>
+   <editionstmt>
+    <edition>Première édition éléctronique</edition>
+   </editionstmt>
+   <publicationstmt> 
+   <publisher>Archives nationales</publisher>
+    <address>
+     <addressline>Pierrefitte-sur-Seine</addressline>
+    </address>
+    <date calendar="gregorian" era="ce" normal="2014-01-01/2014-12-31">2014-2017</date>
+   </publicationstmt>
+  </filedesc>
+  <profiledesc> 
+  <creation>Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</creation>
+   <langusage>
+    <language langcode="fre">Français</language>
+   </langusage>
+   <descrules>Conforme à la norme ISAD(G) et aux règles d'application de la DTD EAD (version 2002) aux Archives nationales.</descrules>
+  </profiledesc>
+ </eadheader>
+ <frontmatter>
+  <div>
+   <p>
+    <emph render="bold">Liste des abréviations</emph>
+   </p>
+   <p>ACP: Pays d'Afrique, Caraïbes, et Pacifique</p>
+   <p>APCA : Assemblée permanente des chambres d'agriculture</p>
+   <p>CEE : Communauté économique européenne</p>
+   <p>CES : Conseil économique et social</p>
+   <p>CFDT : Confédération française démocratique du travail </p>
+   <p>CFTC : Confédération française des travailleurs chrétiens</p>
+   <p>CGC : Confédération générale des cadres</p>
+   <p>CGPME : Confédération générale des petites et moyennes entreprises</p>
+   <p>CGT : Confédération générale du travail </p>
+   <p>CNIL : Commission nationale informatique et libertés</p>
+   <p>CNJA : Centre national des jeunes agriculteurs</p>
+   <p>CNMCCA : Confédération nationale de la mutualité, de la coopération et du crédit agricole</p>
+   <p>CNPF : Conseil national du patronnat français </p>
+   <p>CNRS : Centre national de recherche scientifique</p>
+   <p>CRIF : Conseil représentatif des israelites de France</p>
+   <p>CSA : Conseil supérieur de l'audiovisuel</p>
+   <p>ENA : École nationale d'administration</p>
+   <p>FCPE : Fédération des conseils des parents d'élèves</p>
+   <p>FEN : Fédartion de l'éducation nationale</p>
+   <p>FMI : Fonds monétaire international</p>
+   <p>FNSEA : Fédération nationale des syndicats des exploitants agricoles</p>
+   <p>FO : Force ouvrière</p>
+   <p>GATT : Accord général sur les tarifs douaniers et le commerce</p>
+   <p>IDIA : Institut du développement des industries agricoles</p>
+   <p>IHEDN : Institut des hautes études de défense nationale</p>
+   <p>IHESI : Institut des hautes études de sécurité intérieure</p>
+   <p>MRAP : Mouvement contre le racisme et pour l'amitié entre les peuples</p>
+   <p>MRG : Mouvement des radicaux de gauche</p>
+   <p>N&amp;B : noir et blanc</p>
+   <p>OLP : Organisation de libération de la Palestine</p>
+   <p>ONU : Organisation des nations unies</p>
+   <p>OTAN : Organisation du traité de l'Atlantique Nord</p>
+   <p>PCF : Parti communiste français</p>
+   <p>PDF : Parti démocrate français</p>
+   <p>PDG : Président directeur général</p>
+   <p>PEEP : Fédération des parents d'élèves de l'enseignement public</p>
+   <p>POPB : Parc omnisport de Paris Bercy</p>
+   <p>RDA : République démocratique d'Allemagne</p>
+   <p>RFA : République fédérale d'Allemagne</p>
+   <p>RMI : Revenu minimum d'insertion</p>
+   <p>RPCR : Rassemblement pour la Calédonie, devenu en 1978 le RPCR (Rassemblement pour la Calédonie dans la République)</p>
+   <p>SGG : Secrétariat général du gouvernement</p>
+   <p>SIA : Salon international de l'alimentation</p>
+   <p>s.d. : sans date</p>
+   <p>UEO : Union de l'Europe occidentale</p>
+   <p>UICN : Union internationale pour la conservation de la nature</p>
+   <p>UNAPL : Union nationale des professions libérales</p>
+   <p>UPA : Union professionnelle artisanale</p>
+   <p>URSS : Union des républiques socialistes soviétiques</p>
+   <p>VVF : Village vacances familles</p>
+  </div>
+ </frontmatter>
+ <archdesc level="subfonds">
+ <did>
+  <unitid type="identifiant">680AP/400-680AP/423</unitid>
+   <unittitle>Albums offerts à Michel Rocard, Premier ministre (1988-1991).</unittitle>
+   <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1991-12-31">1988-1991</unitdate>
+   <origination>
+    <persname authfilenumber="FRAN_NP_010089">Rocard, Michel</persname>
+   </origination>
+   <physdesc>
+   <extent>2 ml.</extent>
+   </physdesc>
+   <langmaterial>
+    <language langcode="fre">Français</language>
+   </langmaterial>
+   <repository>Archives nationales de France</repository>
+   <physloc>Pierrefitte-sur-Seine</physloc>
+  </did>
+  <accessrestrict>
+   <p>Sur autorisation. Les albums réalisés par Matignon (680AP/400-420) ont été numérisés et sont consultables en ligne.</p>
+  </accessrestrict>
+  <userestrict>
+   <p>Sur autorisation. Les albums réalisés par Matignon (680AP/400-420) ont été numérisés et sont consultables en ligne.</p>
+  </userestrict>
+  <acqinfo>
+   <p>Don.</p>
+  </acqinfo>
+  <bioghist>
+   <p>Michel Rocard, né en 1930 à Courbevoie (Hauts-de-Seine), fait ses études secondaires à Paris, il est diplômé de l'Institut d'études politiques, du Centre d’études des Programmes économiques, et de l’École nationale d'administration (ENA), promotion du 18 juin. À sa sortie de l'ENA, il est nommé, en 1958, inspecteur général des Finances. Puis, en 1965, il occupe le poste de chef de la division des Budgets économiques à la direction de la Prévision et celui, de secrétaire général de la commission des Comptes et des Budgets économiques de la Nation. Secrétaire national du Parti socialiste unifié [1967-1973], il est candidat à l'élection présidentielle en 1969. La même année, il est élu député des Yvelines dans la 4e circonscription battant ainsi le candidat sortant, le Premier ministre, Maurice Couve de Murville.En 1974, il adhère au Parti socialiste (PS) et participe activement à la campagne présidentielle de François Mitterrand. Devenu membre du bureau exécutif en décembre 1975, il est nommé secrétaire national chargé du secteurpublic de 1975 à 1979. Élu maire de Conflans-Sainte-Honorine (Yvelines) en 1977, il verra son mandat renouvellé par la suite en 1983 et en 1989. Réélu député des Yvelines dans la 3e circonscription en 1978 (puis en 1986), il connaîtra par la suite une carrière ministérielle et sénatoriale.</p>
+   <p>Nommé ministre du Plan et de l'Aménagement du territoire (1981-1983) sous le gouvernement de Pierre Mauroy, il se voit attribuer le portefeuille ministériel de l'Agriculture (1983-1985). Le 10 mai 1988, il est nommé Premier ministre lors du second septennat de François Mitterrand. Durant son mandat, Michel Rocard met en place un certain nombre de réformes. Avec notamment, la création du Revenu minimum d'insertion (RMI) en 1988, et celle de la Contribution sociale généralisée (CSG) en 1990. Le 26 juin 1988, suite à des manifestations de violence et des troubles en Nouvelle-Calédonie, il fait signer les Accords de Matignon qui entérinent les droits de ce territoire à l'autodétermination. Le 15 mai 1991, il cesse ses fonctions de Premier ministre et devient Premier secrétaire du Parti socialiste [1993].</p>
+   <p>Élu député européen en 1994, il occupera notamment la fonction de président de la commission du Développement (1997), de la commission de l'Emploi et des Affaires sociales (1999) mais aussi de la commission de la Culture, de la Jeunesse, de l’Éducation, des Médias et des Sports (2002). Il est également, membre de plusieurs commissions dont celle des Affaires étrangères (2004). Il démissionne de ses fonctions de parlementaire européen le 1er février 2009.</p>
+   <p>Le 1er avril 2009, il est nommé en conseil des ministres, ambassadeur de France chargé des négociations internationales relatives aux Pôles arctique et antarctique.</p>
+   <p>Invité permanent du bureau national du PS, il poursuit aujourd'hui son engagement politique à travers plusieurs associations et conseils dont Terra nova, un laboratoire d'idées (Think tank) dont il est le président du Conseil d'orientation scientifique depuis 2008.</p>
+  </bioghist>
+  <custodhist>
+   <p>Avant leur entrée aux Archives nationales, les albums de Matignon étaient conservés dans les bureaux parisiens de Michel Rocard.</p>
+  </custodhist>
+  <arrangement>
+   <p>Les personnes sont présentées selon l'ordre des photographies dans les albums.</p>
+  </arrangement>
+  <scopecontent>
+   <p>Les albums ont été réalisés par le service photographique de Matignon ainsi que par les pays visités par Michel Rocard. Ils lui ont été offerts à la fin de son mandat de Premier ministre (1991).</p>
+   <p>- Réceptions officielles, tome I à XI.</p>
+   <p>- Voyages officiels de Michel Rocard, Premier ministre.</p>
+   <p>- Visites officielles de chefs d'État en France et évènements.</p>
+   <p>- Albums offerts par les pays visités par Michel Rocard.</p>
+   <p>Les photographies de ce sous–fonds (680AP/400-680AP/423) présentent un intérêt documentaire intéressant. En effet, les interventions et déplacements photographiés et présents dans ces albums sont à mettre en parallèle avec les discours correspondants également présents dans le fonds pour la période de Matignon 1988-1991 (680AP/192-680AP/201).</p>
+  </scopecontent>
+  <relatedmaterial>
+   <p> </p>
+  </relatedmaterial>
+  <otherfindaid>
+   <p>Répertoire numérique du fonds Michel Rocard (680AP/1-680AP/392).</p>
+   <p>Répertoire numérique des photographies du fonds de Michel Rocard (680AP/345-680AP/378).</p>
+   <p>Répertoire numérique des rendez vous et déplacements de Michel Rocard (680AP/172-680AP/259).</p>
+   <p altrender="links">
+    <ref role="IR">Fonds Michel Rocard<archref href="FRAN_IR_050107">Fonds Michel Rocard (1953-2013)</archref>
+    </ref>
+    <ref role="IR">Fonds Michel Rocard, discours<archref href="FRAN_IR_050330">Fonds Michel Rocard - Discours et interventions (1980-2011).</archref>
+    </ref>
+    <ref role="IR">Fonds Michel Rocard, photographies<archref href="FRAN_IR_050115">Michel Rocard - Photographies (1956-2002)</archref>
+    </ref>
+   </p>
+  </otherfindaid>
+  <bibliography>
+   <p>
+    <emph render="bold">Sources :</emph>
+   </p>
+   <p>SIRINELLI (Jean–François), COUTY (Daniel), <emph render="italic">Dictionnaire de l'Histoire de France</emph>, éditions Larousse–Bordas, Paris, 1999, tome 2, p. 1386–1387.</p>
+   <p>SIRINELLI (Jean–François), RIOUX (Jean–Pierre), <emph render="italic">La France d'un siècle à l'autre 1914</emph>-<emph render="italic">2000, dictionnaire critique</emph>, éditions Hachette littératures, Paris, 1999, p. 115, 116, 542, 887.</p>
+   <p>YVERT (Benoit), Dictionnaire des ministres 1789–1989, Editions Perrin, Paris, 1990, p 987–988. </p>
+   <p>
+    <emph render="bold">Histoire politique :</emph>
+   </p>
+   <p>
+    <emph render="italic">Archives d'espoir : 20 ans de PSU</emph>, 1960–1980, Paris, éditions Syros, 1980, 200 p.</p>
+   <p>EVIN (Kathleen), <emph render="italic">Michel Rocard ou l'art du possible</emph>, éditions J-C Simoen, Paris, 1979, 243 p.</p>
+   <p>GAY (Isabelle), <emph render="italic">L'itinéraire politique de Michel Rocard jusqu'en 1974</emph>, mémoire de maîtrise , Université Paris I, 1988, 2 vol., 292f.</p>
+   <p>GUIGO (Pierre–Emmanuel), <emph render="italic">Le chantre de l'opinion, la communication de Michel Rocard de 1974 à 1981</emph>,éditions INA, collections Médias Histoire, Paris, 2013, 265p.</p>
+   <p>HEURGON (Marc), <emph render="italic">Histoire du PSU. La fondation et la guerre d'Algérie (1958–1962)</emph>, éditions de la Découverte, tome I, Paris, 1994, 444 p.</p>
+   <p>KESLER (Jean–François), <emph render="italic">De la gauche dissidente au nouveau Parti socialiste</emph> <emph render="italic">: les minorités qui ont rénové le Parti</emph> <emph render="italic">socialiste</emph>, éditions Privat, Toulouse, 1990.</p>
+   <p>SCHNEIDER (Robert), <emph render="italic">Michel Rocard</emph>, éditions Stock, Paris, 1987, 309 p.</p>
+   <p>
+    <emph render="bold">Ouvrages de Michel Rocard :</emph>
+   </p>
+   <p>ROCARD (Michel), <emph render="italic">Le PSU et l'avenir socialiste de la France : histoire et sociologie d'un parti</emph>, éditions du Seuil, Paris, 1969.</p>
+   <p>ROCARD (Michel), <emph render="italic">Le coeur à l'ouvrage</emph>, éditions Odile Jacob, Paris, 1987, 343 p.</p>
+   <p>ROCARD (Michel), <emph render="italic">Les moyens d'en sortir</emph>, éditions du Seuil, Paris,1996, 245 p.</p>
+   <p>ROCARD (Michel), <emph render="italic">Pour une autre Afrique</emph>, éditions Flammarion, Paris, 80 p.</p>
+   <p>ROCARD (Michel), <emph render="italic">Oui à la Turquie</emph>, éditions Hachette littératures, Paris, 2008, 130 p.</p>
+   <p>ROCARD (Michel), <emph render="italic">Si ça vous amuse : chroniques de mes faits et méfaits</emph>, éditions Flammarion, Paris, 2010, 578 p.</p>
+   <p>ROCARD (Michel), <emph render="italic">La politique telle qu'elle meurt de ne pas être</emph>, éditions J-C Lattès, Paris, 2011, 315p.</p>
+   <p>ROCARD (Michel),<emph render="italic"> Mes points sur les i : propos sur la présidentielle et la crise</emph>, éditions Odile Jacob, Paris, 2012.</p>
+   <p>ROCARD (Michel), <emph render="italic">Rapport sur les camps de regroupement et autres textes sur la guerre d'Algérie</emph>, éditions Mille et une nuits, Paris, 2013, 332p.</p>
+  </bibliography>
+  <dsc>
+  <c id="c-1lrm0bjla--1d66znhcau68f">
+   <did>
+    <unitid type="identifiant">680AP/400-680AP/411</unitid>
+     <unittitle>Réceptions officielles à Matignon.</unittitle>
+     <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1991-12-31">1988-1991</unitdate>
+    </did>
+    <c id="c-1lxlkjd7i--37es6puu3euy">
+    <did>
+     <unitid type="cote-de-consultation">680AP/400</unitid>
+      <unittitle>Réceptions officielles, tome I.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>92 photographies dont 68 N&amp;B et 24 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (mai-juin 1988).</p>
+      <list>
+       <item>Passation de pouvoir entre Jacques Chirac et Michel Rocard. 10 mai 1988.</item>
+       <item>Membres du premier gouvernement de Michel Rocard. 13 mai 1988.</item>
+       <item>Conférence de presse de Michel Rocard. 13 mai 1988.</item>
+       <item>Entretien avec Louis Le Pensec. 17 mai 1988. </item>
+       <item>Michel Rocard et les membres du gouvernement. 17 mai 1988.</item>
+       <item>Rencontre entre Michel Rocard et Pierre Mauroy. 17 mai 1988.</item>
+       <item>Délégation pour la Nouvelle-Calédonie. 18 mai 1988.</item>
+       <item>Interview de Jean-Paul Huchon, directeur du cabinet de Michel Rocard. 19 mai 1988.</item>
+       <item>Membres du premier gouvernement de Michel Rocard. 19 mai 1988. </item>
+       <item>Michel Rocard et James Baker, secrétaire du Trésor des États-Unis. 19 mai 1988.</item>
+       <item>Michel Rocard et Alain Poher, président du Sénat. 19 mai 1988.</item>
+       <item>Entretien avec Pierre Beregovoy. 20 mai 1988.</item>
+       <item>Entretien avec Laurent Fabius. 20 mai 1988.</item>
+       <item>Entretien avec Jack Lang. 20 mai 1988.</item>
+       <item>Entretien avec Antoine Bonnemaison. 20 mai 1988.</item>
+       <item>Entretien avec Lionel Stoleru. 20 mai 1988.</item>
+       <item>Michel Rocard et les secrétaires d'État. 20 mai 1988.</item>
+       <item>Michel Rocard avec les candidats des Yvelines. 20 mai 1988.</item>
+       <item>Michel Rocard et Ovadia Soffer, ambassadeur d'Israël. 24 mai 1988.</item>
+       <item>Michel Rocard et Branko Mikulic, Premier ministre de Yougoslavie. 24 mai 1988.</item>
+       <item>Réunion avec la Confédération générale des cadres (CGC). 26 mai 1988. </item>
+       <item>Réunion avec Force ouvrière. 26 mai 1988.</item>
+       <item>Michel Rocard et Brian Mulmorey, Premier ministre du Canada. 26 mai 1988.</item>
+       <item>Réunion avec la Confédération générale des travailleurs (CGT). 27 mai 1988.</item>
+       <item>Michel Rocard avec Eduardo Pesqueira Oléa, ministre de l'Agriculture du Mexique. 28 mai 1988.</item>
+       <item>Réunion avec la Confédération des travailleurs chrétien (CFTC). 30 mai 1988.</item>
+       <item>Réunion avec la Confédération des petites et moyennes entreprises (CGPME). 30 mai 1988.</item>
+       <item>Réunion avec le Conseil national du patronat français (CNPF). 31 mai 1988.</item>
+       <item>Réunion avec la Confédération française démocratique du travail (CFDT). 31 mai 1988.</item>
+       <item>Déplacement de Michel Rocard à Marseille (Bouches-du-Rhône). 31 mai 1988.</item>
+       <item>Réunion avec la Fédération de l'Éducation nationale (FEN). 1er juin 1988.</item>
+       <item>Michel Rocard et Robert Badinter, président du Conseil constitutionnel. 2 juin 1988.</item>
+       <item>Visite de Luigi de Mita, Premier ministre d'Italie. 3 juin 1988.</item>
+       <item>Déclaration de Michel Rocard pour les élections législatives de 1988. 5 juin 1988.</item>
+       <item>Michel Rocard et René Teulade, président de la Mutualité française. 6 juin 1988.</item>
+       <item>Visite de Noboru Takeshita, Premier ministre du Japon. 6 juin 1988.</item>
+       <item>Visite du marché d'Aligre (Paris). 7 juin 1988.</item>
+       <item>Forum de l'expansion à l'hôtel Méridien. 7 juin 1988.</item>
+       <item>Visite au Parc omnisport de Paris Bercy (POPB). 8 juin 1988.</item>
+       <item>Visite de Margaret Tatcher, Premier ministre du Royaume-Uni. 10 juin 1988.</item>
+       <item>Déclaration de Michel Rocard avant le second tour des élections législatives. 12 juin 1988.</item>
+       <item>Collège de France à Matignon. 20 juin 1988.</item>
+       <item>Remise de prix au pavillon Gabriel. 21 juin 1988.</item>
+       <item>Réunion de l'Union nationale des professions libérales (UNAPL). 23 juin 1988.</item>
+       <item>Deuxième gouvernement de Michel Rocard. 29 juin 1988. </item>
+       <item>Visite de Felipe Gonzales, Premier ministre d'Espagne. 30 juin 1988.</item>
+       <item>Réception des parlementaires. 30 juin 1988. </item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0001_L.msp#FRAN_0157_0092_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-3p1smzlti--1gf7zpmejger2">
+    <did>
+     <unitid type="cote-de-consultation">680AP/401</unitid>
+      <unittitle>Réceptions officielles, tome I (bis).</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>55 photographies dont 52 N&amp;B et 3 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Exemplaire double de l'album 1.</p>
+     </scopecontent>
+    </c>
+    <c id="c-1lzw0gstm-1guupicljbuyr">
+    <did>
+     <unitid type="cote-de-consultation">680AP/402</unitid>
+      <unittitle>Réceptions officielles, tome II.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>95 photographies dont 73 N&amp;B et 22 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (juillet-octobre 1988).</p>
+      <list>
+       <item>Grand jury RTL-Le Monde. 3 juillet 1988. [2 photographies].</item>
+       <item>Réunion sur la Nouvelle-Calédonie avec Louis Le Pensec. 5 juillet 1988.</item>
+       <item>Réception à l'Institut catholique de Paris avec le chanoine Guiberteau. 5 juillet 1988. [2 photographies].</item>
+       <item>Visite de Alexandre Léontieff, président de la Polynésie française. 6 juillet 1988.</item>
+       <item>Visite de Saddurin Aga Khan. 12 juillet 1988.</item>
+       <item>Réception au ministère des DOM-TOM en présence de Louis Le Pensec et François Mitterrand, président de la République. 13 juillet 1988.</item>
+       <item>Revue du 14 juillet. 14 juillet 1988. [21 photographies].</item>
+       <item>Entretien avec la Fédération nationale des syndicats des exploitants agricoles (FNSEA). 19 juillet 1988.</item>
+       <item>Mise en place du commissaire au Plan avec Pierre-Yves Cossé. 20 juillet 1988.</item>
+       <item>Entretien avec Norodom Sihanouk, prince du Cambodge. 22 juillet 1988.</item>
+       <item>Entretien avec l'Union professionnelle artisanale (UPA). 22 juillet 1988.</item>
+       <item>Entretien avec Manfred Wörner, secrétaire général de l'OTAN. 22 juillet 1988.</item>
+       <item>Entretien avec France–Albert René, président de la République des Seychelles. 22 juillet 1988.</item>
+       <item>Entretien avec Wilfried Martens, Premier ministre belge. 25 juillet 1988.</item>
+       <item>Entretien avec François Perigot, président du CNPF. 26 juillet 1988.</item>
+       <item>Entretien concernant la Nouvelle-Calédonie avec Louis Le Pensec, Jean Marie Tjibaou et M. Uckewe. 20 août 1988.</item>
+       <item>Entretien avec Monsiegneur Casaroli. 2 septembre 1988.</item>
+       <item>Entretien avec Michel Camdessus, président du Fond monétaire international (FMI). 5 septembre 1988.</item>
+       <item>Entretien avec Javier Pérez de Cuéllar, secrétaire général de l'ONU. 7 septembre 1988. [2 photographies].</item>
+       <item>Entretien avec les élus de Polynésie française. 7 septembre 1988.</item>
+       <item>Déplacement à Liévin (Pas-de-Calais). 12 septembre 1988. [8 photographies].</item>
+       <item>Arrivée du porte-avion Clémenceau revenant du golfe persique, en rade de Toulon. 16 septembre 1988. [11 photographies].</item>
+       <item>Journée porte-ouverte à Matignon. 18 septembre 1988. [2 photographies].</item>
+       <item>Hommage à la mémoire de Henri Frenay aux Invalides. 20 septembre 1988. [4 photographies].</item>
+       <item>Entretien avec Alain Juppé. 22 septembre 1988.</item>
+       <item>Entretien avec Jack Lang et François Léotard. 22 septembre 1988.</item>
+       <item>Entretien avec Georges Marchais. 22 septembre 1988.</item>
+       <item>Entretien à Marigny avec l’émir du Koweït, Jaber Al-Ahmad Al-Sabah. 23 septembre 1988.</item>
+       <item>Entretien avec Mário Soares, président de la République du Portugal. 23 septembre 1988. [2 photographies].</item>
+       <item>Entretien avec Shimon Peres, Premier ministre d’Israël. 23 septembre 1988.</item>
+       <item>Entretien avec Arthur Napoleon Raymond Robinson, Premier ministre de Trinité-et-Tobago. 26 septembre 1988.</item>
+       <item>Entretien avec Louis Jung, président de l'association parlementaire du conseil de l'Europe. 26 septembre 1988.</item>
+       <item>Entretien avec Michèle Cotta, directrice de l'information à TF1. 27 septembre 1988.</item>
+       <item>Entretien avec Raymond Barre. 29 septembre 1988.</item>
+       <item>Réception à l'ambassade de Chine. 29 septembre 1988. [2 photographies].</item>
+       <item>Entretien avec Paul Keating, ministre de l'Économie en Australie. 30 septembre 1988.</item>
+       <item>Jean-Marie Tjibaou à Matignon. 3 octobre 1988.</item>
+       <item>Organisation française du mouvement européen sur la péniche Malaga. 3 octobre 1988.</item>
+       <item>Entretien avec la Confédération nationale de la mutualité, de la coopération et du crédit agricole (CNMCCA) et son président Yves Barsalou. 4 octobre 1988.</item>
+       <item>Entretien au Lutétia avec Paul Biya, président du Cameroun. 4 octobre 1988.</item>
+       <item>Congrés de l'Union internationale pour la conservation de la nature (UICN), avec la reine de Jordanie Noor al-Hussein. 6 octobre 1988. [2 photographies]. </item>
+       <item>Entretien avec Ait Challel, ambassadeur d'Algérie. 7 octobre 1988. </item>
+       <item>Entretien avec Antoine Bonnemaison. 7 octobre 1988.</item>
+       <item>Semaine des personnes âgées, visite à Magnanville (Yvelines) avec François Mitterrand, président de la République. 10 octobre 1988. [3 photographies].</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0093_L.msp#FRAN_0157_0187_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-1m1erz2af--jwwzcx8iix0v">
+    <did>
+     <unitid type="cote-de-consultation">680AP/403</unitid>
+      <unittitle>Réceptions officielles, tome III.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>95 photographies dont 50 N&amp;B et 45 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (octobre-décembre 1988).</p>
+      <list>
+       <item>Colloque «Le Monde», palais de l'UNESCO. 11 octobre 1988.</item>
+       <item>Visite et réception en l'honneur de George Vassiliou, président de Chypre. 11 octobre 1988. [9 photographies].</item>
+       <item>Visite avec François Mitterrand, président de la République et Jean-Pierre Chevènement à l'Institut des hautes études de défense nationale (IHEDN). 11 octobre 1988. [2 photographies].</item>
+       <item>Entretien avec John Akers, président d'IBM Monde. 11 octobre 1988.</item>
+       <item>Rencontre avec le pape Jean-Paul II à Mulhouse (Haut-Rhin). 11 octobre 1988. [5 photographies].</item>
+       <item>Départ de madame Obolensky, discours de Jean-Paul Huchon. 14 octobre 1988.</item>
+       <item>Inauguration du Salon international de l'alimentation (SIA). 17 octobre 1988. [3 photographies].</item>
+       <item>Inauguration d'une plaque à la mémoire de Jean Monnet. 17 octobre 1988.</item>
+       <item>Entretien avec Monseigneur Decourtray. 18 octobre 1988.</item>
+       <item>Visite et réception en l'honneur de Chaim Herzog, président de l'État d’Israël. 18 octobre 1988. [7 photographies].</item>
+       <item>Réception des médaillés olympiques de Séoul. 19 octobre 1988.</item>
+       <item>Entretien avec la Ligue des droits de l'Homme. 20 octobre 1988.</item>
+       <item>Entretien avec Lord Plumb, président du Parlement européen. 20 octobre 1988.</item>
+       <item>Remise du prix « Manager de l'année ». 20 octobre 1988. </item>
+       <item>Entretien avec Guy Jarnac, président du groupe économique et social des DOM-TOM. 21 octobre 1988.</item>
+       <item>Inauguration du site industriel de Cergy-Pontoise (Val d'Oise). 24 octobre 1988.</item>
+       <item>Entretien avec Zheng Tuobin, ministre du Commerce extérieur de Chine. 25 octobre 1988.</item>
+       <item>Entretien avec le prince Hassan de Jordanie. 26 octobre 1988.</item>
+       <item>Entretien avec Felipe Gonzales, Premier ministre d'Espagne. 26 octobre 1988.</item>
+       <item>Entretien avec Wilfried Martens, Premier ministre de Belgique. 26 octobre 1988.</item>
+       <item>Discours lors du départ du préfet Gosselin. 26 octobre 1988.</item>
+       <item>Réception pour les élus de Nouvelle-Calédonie à la mairie de Conflans Sainte-Honorine (Yvelines). 29 octobre 1988. [4 photographies].</item>
+       <item>Entretien avec Moudud Ahmed, Premier ministre du Bangladesh. 2 novembre 1988.</item>
+       <item>52ème sommet franco-allemand en présence de Helmut Khol, chancelier d'Allemagne. 3 novembre 1988. [2 photographies].</item>
+       <item>Entretien avec Mario Fernandes Da Graca Machungo, Premier ministre du Mozambique. 4 novembre 1988.</item>
+       <item>Réception du Conseil répresentatif des institutions juives de France (CRIF). 5 novmebre 1988. [2 photographies].</item>
+       <item>Entretien avec Taha Marouf, vice-président de la République d'Irak. 7 novembre 2011.</item>
+       <item>Forum Entreprendre. 7 novembre 1988.</item>
+       <item>Remise de l'ordre de chevalier de l'ordre national du mérite à Monsieur et Madame Westercamp. 10 novembre 1988. [2 photographies].</item>
+       <item>Transfert au Panthéon des cendres de Jean Monnet. 9 novembre 1988. [2 photographies].</item>
+       <item>Entretien avec Gerhard Stoltenberg, ministre des Finances de la République fédérale d'Allemagne (RFA). 14 novmebre 1988.</item>
+       <item>Discours d'ouverture de la réunion européenne à l'IHEDN. 15 novembre 1988.</item>
+       <item>Déjeuner en l'honneur du prince Harald de Norvège et de son épouse, la princesse Sonja. 15 novembre 1988.</item>
+       <item>Rencontre avec Joseph Sitruk, Grand Rabbin de France. 15 novembre 1988.</item>
+       <item>Réunion avec les présidents d'universités. 16 novembre 1988.</item>
+       <item>Visite et réception en l'honneur de Karoly Grosz, Premier ministre de Hongrie. 17 novembre 1988. [5 photographies].</item>
+       <item>Remise de l'ordre de Grand officier de la Légion d'honneur à Pierre Racine. 17 novembre 1988. </item>
+       <item>Remise de l'ordre d'officier de la Légion d'honneur à M. Cervoni. 17 novembre 1988.</item>
+       <item>Remise de l'ordre de chevalier de la Légion d'honneur au pasteur Stewart. 17 novembre 1988.</item>
+       <item>Remise de l'ordre de chevalier de l'ordre national du mérite à M. Amadou. 17 novembre 1988.</item>
+       <item>Collque « Business international » à l'hotel Royal Monceau (Paris). 18 novembre 1988.</item>
+       <item>Forum des relations sociales dans l'entreprise. 23 novembre 1988.</item>
+       <item>Sommet franco-espagnol à Montpellier (Hérault). 24 novembre 1988. [4 photographies].</item>
+       <item>Déjeuner littéraire. 25 novembre 1988.</item>
+       <item>Entretien avec Ricardo Lagos, président du mouvement de l'Alliance démocratique (Chili). 25 novembre 1988.</item>
+       <item>Réunion avec la chambre du commerce franco-arabe. 28 novembre 1988.</item>
+       <item>Visite et réception en l'honneur de Turgut Ozal, Premier ministre de Turquie. 29 novembre 1988. [6 photographies].</item>
+       <item>Visite au salon des partenaires export. 29 novembre 1988.</item>
+       <item>Entretien avec Budimir Loncar, ministre des Affaires étrangères de Yougoslavie. 29 novembre 1988.</item>
+       <item>Vol en mirage 2000 à la base aérienne de Mont de Marsan (Landes). 1er décembre 1988. [4 photographies].</item>
+       <item>Téléthon à Matignon. 2 décembre 1988.</item>
+       <item>Salon nautique. 4 décembre 1988.</item>
+       <item>Entretien avec Ingvar Carlsson, Premier ministre de la Suède. 5 décembre 1988.</item>
+       <item>Réunion Charter pour l'Europe. 5 décembre 1988.</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0188_L.msp#FRAN_0157_0284_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-1m2pv9m0d-1af1pwujdy71q">
+    <did>
+     <unitid type="cote-de-consultation">680AP/404</unitid>
+      <unittitle>Réceptions officielles, tome IV.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1989-12-31">1988-1989</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>99 photographies dont 79 N&amp;B et 20 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (décembre 1988-février 1989).</p>
+      <list>
+       <item>Réception de l'International socialiste au quai d'Orsay. 5 décembre 1988. [3 photographies].</item>
+       <item>Entretien avec Geoffroye Howe, ministre des Affaires étrangères britannique. 7 décembre 1988.</item>
+       <item>Déplacement à Limoges (Haute-Vienne). 8 décembre 1988. [3 photographies].</item>
+       <item>Entretien avec Pasqual Maragall, maire de Barcelone (Espagne). 9 décembre 1988.</item>
+       <item>Réception à Matignon pour le 40e anniversaire de la déclaration des Droits de l'Homme. 9 décembre 1988.</item>
+       <item>Entretien avec Hortensia Bussi Allende. 10 décembre 1988.</item>
+       <item>Entretien avec Andreï Sakarov, physicien russe. 10 décembre 1988. </item>
+       <item>Entretien avec Lech Walesa, président du syndicat Solidarnosc. 10 décembre 1988.</item>
+       <item>Arbre de noël de Matignon à l'Opéra de Paris. 10 décembre 1988. [3 photographies].</item>
+       <item>Voeux des syndicats des commissaires de police. 15 décembre 1988.</item>
+       <item>Inauguration du réseau cablé à Angers (Maine-et-Loire). 16 décembre 1988. [2 photographies].</item>
+       <item>Entretien avec Omar Bongo, président du Gabon. 19 décembre 1988.</item>
+       <item>Entretien avec Denis Sassou N'Guesso, président du Congo. 19 décembre 1988. </item>
+       <item>Entretien avec Eberhard Diegpen, maire de Berlin (Allemagne). 21 décembre 1988. </item>
+       <item>Entretien avec les chefs religieux de la communuaté arménienne. 27 décembre 1988.</item>
+       <item>Entretien avec Jacques Lafleur, président du mouvement politique néo-calédonien RPCR. 27 décembre 1988.</item>
+       <item>Déjeuner du gouvernement à Matignon. 4 janvier 1989.</item>
+       <item>Entretien avec George Shultz, secrétaire d'État américain aux Affaires étrangères. 6 janvier 1989.</item>
+       <item>Voeux à la presse. 6 janvier 1989.</item>
+       <item>Voeux du cabinet au Premier ministre, discours de Jean-Paul Huchon. 6 janvier 1989.</item>
+       <item>Conférence de Paris sur l'interdiction des armes chimiques, avec François Mitterrand, président de la République et Roland Dumas, ministre des Affaires étrangères . 7 janvier 1989.</item>
+       <item>Voeux du Secrétariat général du gouvernement (SGG). 9 janvier 1989. [2 photographies].</item>
+       <item>Entretien avec Moshe Arens, ministre des Affaires étrangères d’Israël. 9 janvier 1989.</item>
+       <item>Entretien avec Roland Rapaport, président du Mouvement contre le racisme et pour l'amitié entre les peuples (MRAP). 10 janvier 1989.</item>
+       <item>Entretien avec Russell Marshall, ministre des Affaires étrangères de Nouvelle-Zélande. 10 janvier 1989.</item>
+       <item>Entretien avec Hans-Dietrich Genscher, ministre des Affaires étrangères de la RFA. 11 janvier 1989. </item>
+       <item>Réunion avec les parlementaires américains. 11 janvier 1989.</item>
+       <item>Clôture des assises internationales (nouvelles solidarités). 11 janvier 1989.</item>
+       <item>Entretien avec Ulysses Guimaraes, président du Parlement brésilien. 12 janvier 1989.</item>
+       <item>Entretien avec Qian Qichen, ministre des Affaires étrangères de Chine. 12 janvier 1989. </item>
+       <item>Inauguration de la cour administrative d'appel. 13 janvier 1989.</item>
+       <item>Entretien avec Monseigneur Lorenzo Antonietti. 18 janvier 1989.</item>
+       <item>Entretien avec Famara-Ibrahima Sagna, ministre de l'Industrie du Sénégal. 18 janvier 1989.</item>
+       <item>Séance solennelle à la Cour des comptes. 18 janvier 1989.</item>
+       <item>Réunion avec la CGC. 18 janvier 1989.</item>
+       <item>Dépacement à Aurillac (Cantal). 19 jnavier 1989. [5 photographies].</item>
+       <item>Réunion avec la CGT. 20 janvier 1989.</item>
+       <item>Entretien avec Didier Ratsiraka, président de la République de Madagascar. 20 janvier 1989.</item>
+       <item>Entretien avec la délégation de la CFDT. 23 janvier 1989.</item>
+       <item>Visite et réception en l'honneur de Robert Bourassa, Premier ministre du Québec. 23 janvier 1989. [13 photographies].</item>
+       <item>Entretien avec Eduardo Angeloz, gouverneur de Córdoba (Argentine). 23 janvier 1989.</item>
+       <item>Réception avec les ambassadeurs français en Afrique subsaharienne. 25 janvier 1989.</item>
+       <item>Entretien avec Hicham Nazer, ministre du Pétrole en Arabie Saoudite. 26 janvier 1989.</item>
+       <item>Remise de l'ordre de la Légion d'honneur à Pierre Cosse. 26 janvier 1989.</item>
+       <item>Signature à la fédération protestante de France. 27 janvier 1989.</item>
+       <item>Déplacement à Parthenay et à la Roche-sur-Yon (Vendée). 27 janvier 1989. [7 photographies].</item>
+       <item>Audience de la FEN. 30 janvier 1989.</item>
+       <item>Déplacement au parc du SAN à Saint-Quentin-en-Yvelines (Yvelines). 2 février 1989. [3photographies].</item>
+       <item>Déplacement à Genève (Suisse). 6 février 1989. [4 photographies].</item>
+       <item>Déplacement en Île-de-France. 7 février 1989. [7 photographies].</item>
+       <item>Entretien avec Kamilo Gata, député de Wallis-et-Futuna. 10 février 1989.</item>
+       <item>Entretien avec le journal <emph render="italic">Wall Street</emph>. 10 février 1989.</item>
+       <item>Entretien avec Daniel Arap Moi, président de la République du Kenya. 13 février 1989.</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0285_L.msp#FRAN_0157_0383_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-4ojt8w4my--1dpgur5k8um5k">
+    <did>
+     <unitid type="cote-de-consultation">680AP/405</unitid>
+      <unittitle>Réceptions officielles, tome V.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1989-12-31">1989</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>96 photographies dont 53 N&amp;B et 43 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (février-mai 1989).</p>
+      <list>
+       <item>Réception avec l'École de danse de l'Opéra de Paris. 13 février 1989.</item>
+       <item>Réception pour l'installation du Conseil supérieur de l'audiovisuel (CSA). 13 février 1989. [3 photographies].</item>
+       <item>Entretien avec Jean-Loup Chrétien, spationaute. 15 février 1989. [2 photographies].</item>
+       <item>Entretien avec Miecczystaw Rakowski, Premier ministre de la Pologne. 15 février 1989. [2 photographies].</item>
+       <item>Entretien avec Lev Voronine, vice-Premier ministre de l'Union des républiques socialistes et soviétiques (URSS). 16 février 1989.</item>
+       <item>Entretien Jao Bernardo Vieira, président du Conseil d'État de Guinée-Bissau. 17 février 1989.</item>
+       <item>Entretien avec James Baker, secrétaire d'État américain. 21 février 1989.</item>
+       <item>Entretien avec Carlos Romero, ministre de l'Agriculture en Espagne. 21 février 1989.</item>
+       <item>Entretien avec Hédi Baccouche, Premier ministre tunisien. 21 février 1989.</item>
+       <item>Cérémonie de signature avec Louis Le Pensec et Alexandre Léontieff, président du gouvernement de Polynésie française. 21 février 1989.</item>
+       <item>Visite et réception en l'honneur de Yitzhak Shamir, Premier ministre d'Israël. 22 février 1989. [9 photographies].</item>
+       <item>Sommet franco-britannique. 27 février 1989.</item>
+       <item>Entretien Guy Braibant, homme politique français. 28 février 1989.</item>
+       <item>Entretien avec Jean Matteoli, président du Conseil économique et social (CES). 1er mars 1989.</item>
+       <item>Visite au camp de Canjuers (Var). 2 mars 1989. [3 photographies].</item>
+       <item>Rencontre avec la fédération des conseils des parents d'élèves (FCPE). 3 mars 1989.</item>
+       <item>Rencontre avec l'association des anciens combattants. 6 mars 1989.</item>
+       <item>Réception de la promotion Dialogue. 6 mars 1989.</item>
+       <item>Entretien avec Jacques Cousteau, océanographe. 9 mars 1989. </item>
+       <item>Entretien avec Geoffroy Palmer, vice-Premier ministre de Nouvelle-Zélande. 10 mars 1989.</item>
+       <item>Entretien à la Haye avec M. Aoki, ancien secrétaire d'État à l'environnement du Japon. 10 mars 1989.</item>
+       <item>Entretien à la Haye avec Brian Mulroney, Premier ministre du Canada. 10 mars 1989. [3 photographies].</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0384_L.msp#FRAN_0157_0479_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-4olvsfb7m--v11yc4b7k62g">
+    <did>
+     <unitid type="cote-de-consultation">680AP/406</unitid>
+      <unittitle>Réceptions officielles, tome VI.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1989-12-31">1989</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>97 photographies dont 54 N&amp;B et 43 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (mai-septembre 1989).</p>
+      <list>
+       <item>Déjeuner avec les chefs d'État-major. 8 mai 1989.</item>
+       <item>Visite à Matignon de François Mitterrand, président de la République. 9 mai 1989. [2 photographies].</item>
+       <item>Inauguration "Tuileries" 1989. 9 mai 1989.</item>
+       <item>Entretien avec Lansana Conté, Président de la République de Guinée. 11 mai 1989.</item>
+       <item>Visite d'une classe de CM2, rue d'Alésia (Paris). 11 mai 1989. [2 photographies].</item>
+       <item>Entretien avec Pedro Pires, Premier ministre du Cap-Vert. 11 mai 1989.</item>
+       <item>Visite à Matignon des sénateurs du Parti socialiste. 17 mai 1989. [2 photographies].</item>
+       <item>Colloque sur l'enseignement technique et les enjeux européens à Metz (Moselle). 18 mai 1989. [4 photographies].</item>
+       <item>Colloque "Démocratie européenne et Révolution française" à l'UNESCO. 19 mai 1989.</item>
+       <item>Entretien avec Rokuro Ishikawa, président de la Chambre du commerce du Japon. 29 mai 1989.</item>
+       <item>Conférence de la Dimension humaine à la Sorbonne. 30 mai 1989.</item>
+       <item>Entetien avec Yvon Collin, président du Mouvement des radicaux de gauche (MRG). 30 mai 1989.</item>
+       <item>Déjeuner au quai d'Orsay en l'honneur de Sa Majesté le Sultan d'Oman. 31 ami 1989. [14 photographies].</item>
+       <item>Entretien avec Robert Vigouroux, maire de Marseille (Bouches-du-Rhône). 1er juin 1989.</item>
+       <item>Entretien avec M. Fuchs. 1er juin 1989.</item>
+       <item>Entretien avec Léon Fatoux, maire d'Arras (Pas-de-Calais). 1er juin 1989.</item>
+       <item>Entretien avec André Vallet, maire de Salon-de-Provence (Bouches-du-Rhône). 1er juin 1989.</item>
+       <item>Délégation pakistanaise. 1er juin 1989.</item>
+       <item>Commémoration de la première célébration publique d'un culte protestant à Paris. 7 juin 1989.</item>
+       <item>Entretien avec Abdallah Ben Abdelaziz Al Saoud, prince héritier, sultan d'Arabie Saoudite et ministre de la Défense. 7 jun 1989.</item>
+       <item>Entretien avec Felipe Gonzales, président du gouvernement espagnol. 8 juin 1989.</item>
+       <item>Entretien avec Antoine Pinay, ancien ministre. 9 juin 1989.</item>
+       <item>Entretien avec Yitzhak Rabin, ministre de la Défense d’Israël. 12 juin 1989.</item>
+       <item>Audience de l'Assemblée permanente des chambres d'agriculture (APCA). 13 juin 1989.</item>
+       <item>Déjeuner en l'honneur de Michael Manley, Premier ministre de la Jamaïque. 12 juin 1989.</item>
+       <item>Entretien avec Ronald Reagan, ancien président des États-Unis. 16 juin 1989. [2 photographies].</item>
+       <item>Jacques Longuet, président de la Fédération nationale de l'immobilier. 16 juin 1989.</item>
+       <item>Entretien avec Bob Hawke, Premier ministre d'Australie. 19 juin 1989. </item>
+       <item>Visite du salon de l'aéronautique du Bourget. 17 juin 1989. [8 photographies].</item>
+       <item>Entretien avec Co Thach Nguyen, ministre des Affaires étrangères du Vietnam. 23 juin 1989.</item>
+       <item>Entretien avec Fernando Collor de Mello, candidat brésilien aux élections présidentielles. 23 juin 1989.</item>
+       <item>Entretien avec Henry Kissinger, ancien secrétaire d'État américain. 28 juin 1989.</item>
+       <item>Entretien avec Jacques Parizeau, président du Parti québécois. 3 juillet 1989.</item>
+       <item>Réunion des préfets sur la sécurité routière. 3 juillet 1989.</item>
+       <item>Entretien avec Guy Gennesseaux, président du Parti démocrate français (PDF). 4 juillet 1989.</item>
+       <item>Entretien avec Jacques Fauvet, président de la Commission nationale de l'informatique et des libertés (CNIL). 4 juillet 1989.</item>
+       <item>Déjeuner à la résidence de Marigny avec Mikhail Gorbatchev, président de l'URSS et son épouse Raissa Gorbatchev. 5 juillet 1989.</item>
+       <item>Séance plénière à l'Élysée avec M. Gorbatchev, suivi de la signature des accords franco-soviétiques. 5 juillet 1989.</item>
+       <item>Remise du livre <emph render="italic">Xe Plan</emph> avec Lionel Stoleru. 7 juillet 1989.</item>
+       <item>Visite à Matignon des musiciens américains. 10 juillet 1989. [ 2 photographies].</item>
+       <item>Entretien avec George Frêche, maire de Montpellier (Hérault). 11 juillet 1989.</item>
+       <item>Entretien avec René Teulade, président de la Fédération nationale de la mutualité française. 11 juillet 1989.</item>
+       <item>Remise d'un tableau de Riopelle par Brian Mulroney, Premier ministre du Canada. 12 juillet 1989.</item>
+       <item>Réception de l'Association internationales des parlementaires de langue francophone. 12 juillet 1989. [2 photographies].</item>
+       <item>Réception des chefs coutumiers de Wallis-et-Futuna. 15 juillet 1989.</item>
+       <item>Réunion des responsables d'entreprises publiques. 18 juillet 1989.</item>
+       <item>Entretien avec Barber Conable, président de la Banque mondiale. 18 juillet 1989.</item>
+       <item>Entretien avec Joseph Sitruk, Grand rabbin de France. 20 juillet 1989.</item>
+       <item>Entretien avec Ahmed Abdallah Abderamane, président des Comores. 20 juillet 1989.</item>
+       <item>Michel Rocard au journal télévisé d'Antenne 2 (A2). 26 juillet 1989.</item>
+       <item>Responsables socialistes dans les Conseils régionaux et généraux. 27 juillet 1989.</item>
+       <item>Entretien avec Sen Hun, Premier ministre du Cambodge. 27 juillet 1989.</item>
+       <item>Signature des avenants, deuxième phase aux programmes intégrés méditerranéens (PIM). 28 juillet 1989.</item>
+       <item>Assemblée de l'Organisation mondiale du tourisme. 30 août 1989.</item>
+       <item>Entretien avec Abou Ghazalia, ministre de la Défense en Égypte. 5 septembre 1989.</item>
+       <item>42e session de l'IHEDN. 7 septembre 1989.</item>
+       <item>Entretien avec la délégation des Alpes de Haute Provence. 7 septembre 1989.</item>
+       <item>Entretien avec Carla Hills, représentante au Commerce des États-Unis. 11 septembre 1989.</item>
+       <item>Entretien avec Walter Curley, ambassadeur des États-Unis en France. 11 septembre 1989.</item>
+       <item>Entretien avec Ali Hassan–Mwinyi, président de la République Unie de Tanzanie. 11 septembre 1989.</item>
+       <item>Entretien avec le pasteur Jacques Stewart, Président de la Fédération protestante de France. 12 septembre 1989.</item>
+       <item>Rencontre annuelle de la formation profesionnelle. 13 septembre 1989.</item>
+       <item>Installation de la commission d'évaluation du revenu minimum d'insertion (RMI). 14 septembre 1989.</item>
+       <item>Entretien avec Patricio Aylwin, président du Parti démocrate-chrétien du Chili. 15 septembre 1989.</item>
+       <item>20e anniversaire de l'établissement publique d'aménagement à Cergy-Pontoise (Val d'Oise). 18 septembre 1989.</item>
+       <item>Entretien avec Paul Bouchet, président de la commission nationale consultative des droits de l'Homme. 19 septembre 1989.</item>
+       <item>Inauguration du TGV Altantique. 20 septembre 1989. [2 photographies].</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0480_L.msp#FRAN_0157_0576_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-4onhhncp2--3y53jvckd982">
+    <did>
+     <unitid type="cote-de-consultation">680AP/407</unitid>
+      <unittitle>Réceptions officielles, tome VII.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1989-12-31">1989</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>95 photographies dont 71 N&amp;B et 24 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (septembre-décembre 1989).</p>
+      <list>
+       <item>Entretien avec Ali Hassan-Mwinyi, président de la République Unie de Tanzanie. 11 septembre 1989.</item>
+       <item>Réception avec Patricio Aylwin, président du Parti démocrate-chrétien du Chili. 15 septembre 1989.</item>
+       <item>Réunion de l'Union professionnelle artisanale (UPA). 20 septembre 1989.</item>
+       <item>Réunion de la commission consultative des droits de l'Homme. 21 septembre 1989.</item>
+       <item>Robert Wettstein et François Daubin, Fédération mondiale du scoutisme. 22 septembre 1989.</item>
+       <item>Réunion avec Yannick Simbron, secrétaire général de la FEN. 22 septembre 1989.</item>
+       <item>Réception en l'honneur de Sa Majesté Cheikh Jaber al-Ahmad al-Sabah, émir du Koweït. 26 septembre 1989. [4 photographies].</item>
+       <item>Entretien avec Hosni Moubarak, président d'Égypte. 27 septembre 1989.</item>
+       <item>Église de la Madeleine, messe pour les victimes de l'attentat du DC-10 d'UTA. 28 septembre 1989.</item>
+       <item>Entretien avec Enrique Baron, président du Parlement européen. 28 septembre 1989.</item>
+       <item>Rencontre avec un représentant de la jeune chambre économique française. 29 septembre 1989.</item>
+       <item>Réception en l'honneur de Chatichai Choonhavan, Premier ministre de Thaïlande. 2 octobre 1989. [5 photographies].</item>
+       <item>Réunion avec Claude Bodin, président du groupe socialiste du Conseil régional d'Île-de-France. 3 octobre 1989.</item>
+       <item>Entretien avec Claudio Martelli, vice-président du Conseil des ministres italiens. 3 octobre 1989.</item>
+       <item>Entretien avec Franck MacKenna, Premier ministre du Nouveau-Brunswick. 3 octobre 1989.</item>
+       <item>Entretien avec sir Ninnian Stephen, représentant australien pour l'environnement. 5 octobre 1989.</item>
+       <item>Réunion Nouvelle-Calédonie. 7 octobre 1989. [2 photographies].</item>
+       <item>Entretien avec Charles James Haughey, Premier ministre d'Irlande. 7 octobre 1989.</item>
+       <item>Ouverture de la 15e Conférence consultative du Traité de l'Atlantique. 9 octobre 1989.</item>
+       <item>Entretien avec François Burck, président de l'Union calédonienne et Leopold Jorédié, président de la province nord de la Nouvelle-Calédonie. 9 octobre 1989.</item>
+       <item>Confédération paysanne. 10 octobre 1989.</item>
+       <item>Entretien avec Jean Khan, président du CRIF. 11 octobre 1989.</item>
+       <item>Entretien avec Aimé Césaire, député et maire de Fort-de-France (Martinique). 12 octobre 1989.</item>
+       <item>Entretien avec Ron Brown, président du Parti démocrate américain. 12 octobre 1989.</item>
+       <item>Décoration de mesdames Percheron et Join-Lambert et de messieurs Pechenart et Steinmetz. 12 octobre 1989.</item>
+       <item>Entretien avec Lucien Bouchard, ministre de l'Environnement du Canada. 13 octobre 1989.</item>
+       <item>Entetien avec John Smith et Gordon Brown, députés du Royaume-Uni. 16 octobre 1989.</item>
+       <item>Réception en l'honneur de Mario Soares, président du Portugal et de son épouse. 17 octobre 1989. [7 photographies].</item>
+       <item>Entretien avec le Centre national des jeunes agriculteurs (CNJA). 18 octobre 1989.</item>
+       <item>Entretien avec Serge Janquin, maire de Bruay-la-Buissière (Pas-de-Calais). 18 octobre 1989.</item>
+       <item>Entretien avec Jean Juventin, maire de Papeete (Polynésie française). 19 octobre 1989.</item>
+       <item>Entretien avec le Comité exclusif de la table ronde des industriels français. 19 octobre 1989.</item>
+       <item>Entretien avec Randolf Hearst. 23 octobre 1989.</item>
+       <item>Entretien avec sir Geoffroy Henry, Premier ministre des Iles Cook. 23 octobre 1989. [2 photographies].</item>
+       <item>Entretien avec Dick Cheney, secrétaire d'État à la Défense américain. 23 octobre 1989.</item>
+       <item>Réunion avec Bernard Delplace, syndicat autonome de police. 23 octobre 1989.</item>
+       <item>Installation du Conseil supérieur de la langue française. 24 octobre 1989.</item>
+       <item>Entretien et remise d'un rapport par Catherine Trautmann. 27 octobre 1989.</item>
+       <item>Colloque à l'Institut des hautes études de sécurité intérieure (IHESI). 2 novembre 1989.</item>
+       <item>Entretien avec Aaron Nahmias, président du groupe "Amitié France-Israël". 2 novembre 1989.</item>
+       <item>Colloque avec les clubs "Convaincre pour un changement social". 5 novembre 1989.</item>
+       <item>Entretien avec Albert Pen, sénateur de Saint-Pierre-et-Miquelon et Marc Plantagenest, président du Conseil général de Saint-Pierre-et-Miquelon. 6 novembre 1989.</item>
+       <item>Entretien avec Andrey Lukanov, ministre de l'Économie de Bulgarie. 6 novembre 1989.</item>
+       <item>Entretien avec Renaud de la Genière, président de la Compagnie financière de Suez. 7 novembre 1989.</item>
+       <item>Entretien avec Gilbert Trigano, président du "Club Pays Mexique". 7 novembre 1989.</item>
+       <item>Réunion avec Christian Brodhag, porte-parole national des Verts. 7 novembre 1989.</item>
+       <item>Entretien avec John Bryan, président de la société américaine Sara Lee. 7 novembre 1989.</item>
+       <item>Installation de la comission supérieur de codification. 7 novembre 1989.</item>
+       <item>Forum CNRS - Entreprises. 7 novembre 1989.</item>
+       <item>Remise de palmarès de l'excellence de l'usine Nouvelle-Palme d'Or à M. Perrier et M. Leven. 8 novembre 1989.</item>
+       <item>Cérémonie du 11 novembre. 11 novembre 1989.</item>
+       <item>Entretien avec Léon Kengo Wa Dondo, Premier ministre du Zaïre. 13 novembre 1989.</item>
+       <item>Entretien avec Donald Kalpokas, ministre des Affaires étrangères du Vanuatu. 14 novembre 1989.</item>
+       <item>Réunion avec Pierre Mauroy, Jean-Pierre Balduyck, François Chereque, Michel Delebarre, André Diligent. 14 novembre 1989.</item>
+       <item>Lancement du livre de Michel Rocard <emph render="italic">Un pays comme le nôtre</emph>. 14 novembre 1989.</item>
+       <item>Entretien avec Tadeusz Syryjczyk, ministre de l'Industrie en Pologne. 16 novembre 1989.</item>
+       <item>Rendez-vous européen de l'économie sociale. 17 novembre 1989.</item>
+       <item>50e anniversaire de la Cimade à la Cité des Sciences. 18 novembre 1989.</item>
+       <item>Entretien avec Hans Blix, Directeur général de l'Agence internationale de l'énergie atomique. 20 novembre 1989.</item>
+       <item>Entretien avec Yitzhak Shamir, Premier ministre d'Israël. 22 novembre 1989.</item>
+       <item>30e anniversaire de l'Association Village Vacances Familles (VVF). 22 novembre 1989.</item>
+       <item>Salon de l'emploi bénévole pour les retraités "Retraite action". 23 novembre 1989. [2 photographies].</item>
+       <item>Réception à l'occasion de l'installation du comité scientifique. 24 novembre 1989.</item>
+       <item>Entretien avec Harlem Desir, président de SOS racisme. 25 novembre 1989.</item>
+       <item>Installation de la commission permanente de concertation des professions libérales. 27 novembre 1989.</item>
+       <item>Colloque européen "Stratégies professionnelles et familiales dans la CEE". 28 novembre 1989.</item>
+       <item>Visite des locaux du secrétariat d'État chargé des droits des femmes. 28 novembre 1989.</item>
+       <item>Comité interministériel sur l'intégration. 30 novembre 1989.</item>
+       <item>Réunion avec la presse yougoslave. 30 novembre 1989.</item>
+       <item>Réception à l'occasion du départ de madame Trebucq et de messieurs Taly, Ferec, Deraison, Mallet, Pouzoulet. 30 novembre 1989.</item>
+       <item>Décoration de messieurs René Lenoir, Azoulay, Fraisse et du docteur Caquet. 30 novembre 1989.</item>
+       <item>Réception en l'honneur de Roh Tae Woo, président de la République de Corée et de son épouse. 1er décembre 1989. [8 photographies].</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0577_L.msp#FRAN_0157_0671_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-4ooq797zn-1xwjokascpeh">
+    <did>
+     <unitid type="cote-de-consultation">680AP/408</unitid>
+      <unittitle>Réceptions officielles, tome VIII.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1990-12-31">1989-1990</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>94 photographies dont 62 N&amp;B et 32 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (décembre 1989-mars 1990).</p>
+      <list>
+       <item>Entretien avec Imre Pozsgay, ministre des Réformes administratives de Hongrie. 4 décembre 1989.</item>
+       <item>Entretien avec les députés et sénateurs corses. 5 décembre 1989.</item>
+       <item>Déjeuner avec Felix Porto, président du Conseil général de Guadeloupe. 5 décembre 1989.</item>
+       <item>Entretien avec Jacques Pelletier, ministre de la Coopération et du Développement. 5 décembre 1989.</item>
+       <item>Arbre de noël à l'Opéra de Paris. 10 décembre 1989. [5 photographies].</item>
+       <item>Remise au Premier ministre de la traduction des Droits de l'Homme en tahitien par 4 enfants des écoles de Polynésie. 11 décembre 1989.</item>
+       <item>Entretien avec Jorge Federico Sabato, ministre de l'Éducation nationale d'Argentine. 12 décembre 1989.</item>
+       <item>Exposition "Logements sociaux P.T.T.". 12 décembre 1989.</item>
+       <item>Hommage de la Nation au Panthéon à Condorcet, Monge et l'abbé Grégoire. 12 décembre 1989.</item>
+       <item>Réception en l'honneur de Kaysone Phomvihane, Premier ministre du Laos. 14 décembre 1989. [6 photographies].</item>
+       <item>Comité interministériel sur l'intégration. 19 décembre 1989.</item>
+       <item>Intervention devant le CES. 19 décembre 1989.</item>
+       <item>Colloque "Association française pour le développement de l'enseignement technique". 19 décembre 1989.</item>
+       <item>Entretien avec Salim el-Hoss, Premier ministre du Liban. 20 décembre 1989.</item>
+       <item>Départ du général Bernard Norlain. 21 décembre 1989.</item>
+       <item>Entretien avec Tarek Aziz, vice-Premier ministre d'Irak. 23 décembre 1989.</item>
+       <item>Entretien avec Jean-Luc Lagardere, président du "Club pays Brésil". 5 janvier 1990.</item>
+       <item>Voeux du SGG. 8 janvier 1990.</item>
+       <item>Entretien avec Michel Noir, maire de Lyon (Rhône). 9 janvier 1990.</item>
+       <item>Entretien avec Cheikh Jaffar. 9 janvier 1990.</item>
+       <item>Voeux de la presse. 9 janvier 1990.</item>
+       <item>Forum de l'expansion. 11 janvier 1990.</item>
+       <item>Entretien avec Toshiki Kaifu, Premier ministre du Japon. 11 janvier 1990.</item>
+       <item>Entretien avec Ghazi Hidouci, ministre de l’Économie algérien. 12 janvier 1990.</item>
+       <item>Colloque "Afrique en créations". 15 janvier 1990.</item>
+       <item>Introduction de presse sur le bilan et perspectives Eureka. 15 janvier 1990.</item>
+       <item>Entretien avec Lev Voronine, vice-Premier ministre d'URSS. 16 janvier 1990.</item>
+       <item>Rentrée solennelle de la Cour des comptes. 24 janvier 1990.</item>
+       <item>Entretien avec le docteur Saadun Hammadi, vice-Premier ministre d'Irak. 25 janvier 1990.</item>
+       <item>Colloque national sur le développement économique local au CNIT. 25 janvier 1990.</item>
+       <item>Conseil national de la montagne. 25 janvier 1990.</item>
+       <item>Entretien avec Francesco Cossiga, président de la République italienne. 30 janvier 1990. [7 photographies].</item>
+       <item>Entretien avec Peter Jankowitsch, ancien ministre des Affaires étrangères autrichien. 30 janvier 1990.</item>
+       <item>Ambassadeurs de France en Afrique. 30 janvier 1990.</item>
+       <item>Entretien avec Budimir Loncar, ministre des Affaires étrangères de Yougoslavie. 1er février 1990.</item>
+       <item>Déplacement de Michel Rocard à Melun (Seine-et-Marne), Nouvelles mesures de sécurité routière. 2 février 1990. [2 photographies].</item>
+       <item>Entretien avec Jean Royer, maire de Tours (Indre-et-Loire). 5 février 1990.</item>
+       <item>Colloque du Centre de formation permanente des journalistes. 6 février 1990.</item>
+       <item>Entretien avec Fernando Collor, président du Brésil. 7 février 1990.</item>
+       <item>Signature avec les syndicats des Accords de la fonction publique. 9 février 1990. [2 photographies].</item>
+       <item>Entretien avec Boyko Dimitrov, ministre des Affaires étrangères de Bulgarie. 16 février 1990.</item>
+       <item>Entretien avec Frans Andriessen, vice-président de la Commission des communautés européennes. 15 février 1990.</item>
+       <item>Entretien avec Petre Roman, Premier ministre de Roumanie. 19 février 1990. [3 photographies].</item>
+       <item>Colloque "Où va l'est". 20 février 1990. [4 photographies].</item>
+       <item>Journées internationales des victimes. 22 février 1990.</item>
+       <item>Entretien avec Paul Bouchet, conseiller d'État. 22 février 1990.</item>
+       <item>Entretien avec Pehr Gustaf Gyllenhammar, président de l'entreprise Volvo. 27 février 1990.</item>
+       <item>Recteurs et présidents des universités d'Europe. 27 février 1990.</item>
+       <item>Réception en l'honneur de Ibrahim Babangida, président du Nigéria. 28 février 1990. [3 photographies].</item>
+       <item>Entretien avec Andrei Lukanov, Premier ministre de Bulgarie. 1er mars 1990.</item>
+       <item>Réunion avec l'Association des maires de France. 6 mars 1990.</item>
+       <item>Entretien avec le roi Hussein de Jordanie. 6 mars 1990.</item>
+       <item>Entretien avec Alexander Dubcek, président de l'Assemblée nationale tchécoslovaque. 6 mars 1990.</item>
+       <item>Réunion avec l'Association des maires des grandes villes de France. 7 mars 1990.</item>
+       <item>Inauguration de la salle des droits de l'Homme. 8 mars 1990.</item>
+       <item>Délégation de la Commission nationale des droits des femmes. 8 mars 1990.</item>
+       <item>Colloque "Les femmes et la création". 8 mars 1990.</item>
+       <item>Installation de la Commission "Endettement des ménages". 9 mars 1990.</item>
+       <item>Réunion du haut Comité Intégration. 9 mars 1990.</item>
+       <item>Entretien avec Oskar Lafontaine, ministre-président de Sarre. 15 mars 1990.</item>
+       <item>Rencontre avec Titouan Lamazou, artiste. 18 mars 1990.</item>
+       <item>Déjeuner avec Vaclav Havel, président de la République de Tchécoslovaquie. 20 mars 1990. [5 photographies].</item>
+       <item>Entretien avec Annibal Cavaco-Silva, Premier ministre du Portugal. 23 mars 1990.</item>
+       <item>Entretien avec Dmitry Yazov, ministre de la Défense de l'URSS. 27 mars 1990.</item>
+       <item>Remise du rapport Lutte contre le racisme. 27 mars 1990.</item>
+       <item>Entretien avec Max Streibl, ministre-président de Bavière. 28 mars 1990.</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0672_L.msp#FRAN_0157_0765_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-4oputlqw5--17xce8q5cqk9k">
+    <did>
+     <unitid type="cote-de-consultation">680AP/409</unitid>
+      <unittitle>Réceptions officielles, tome IX.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1990-01-01 / 1990-12-31">1990</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>94 photographies dont 63 N&amp;B et 31 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (mars-juillet 1990).</p>
+      <list>
+       <item>Lycéens soviétiques et français. 29 mars 1990.</item>
+       <item>Délégation Agir Tous pour la Dignité Quart Monde. 2 avril 1990.</item>
+       <item>Entretien avec Javier Pérez de Cuéllar, secrétaire général de l'ONU. 2 avril 1990.</item>
+       <item>Entretien avec Ruud Lubbers, Premier ministre des Pays-Bas. 3 avril 1990.</item>
+       <item>Rencontre sur la lutte contre le racisme. 3 avril 1990. </item>
+       <item>Colloque au pavillon Gabriel "Quelle organisation pour l'Île-de-France". 5 avril 1990.</item>
+       <item>Rencontre avec André Lajoinie et une délégation. 10 avril 1990.</item>
+       <item>Déjeuner des officiers généraux. 20 avril 1990.</item>
+       <item>Entretien avec Stanko Radmilovic, Premier ministre de la République fédérée de Serbie. 25 avril 1990.</item>
+       <item>Entretien avec Helmut Kohl, chancelier d'Allemagne. 25 avril 1990.</item>
+       <item>Petit déjeuner économique avec la délégation franco-allemande. 26 avril 1990.</item>
+       <item>Entretien avec Léopold Jorédié, président de la province nord de la Nouvelle-Calédonie. 30 avril 1990.</item>
+       <item>Entretien avec Richard Kaloï , président de la province des Iles Loyauté. 30 avril 1990.</item>
+       <item>Assemblée générale du Conseil d'État. 3 mai 1990.</item>
+       <item>Groupe d'étudiants inuit. 4 mai 1990.</item>
+       <item>Entretien avec Alassane Ouattara, gouverneur de la Banque centrale des États de l'Afrique de l'Ouest. 7 mai 1990.</item>
+       <item>Cérémonie du 8 mai. 8 mai 1990. [2 photographies].</item>
+       <item>Réception en l'honneur de Dan Quayle, vice-président des États-Unis et de son épouse. 9 mai 1990. [4 photographies].</item>
+       <item>Entretien avec Jelio Jeliev, leader de l'opposition démocratique bulgare. 10 mai 1990.</item>
+       <item>Entretien avec Frederik de Klerk, président de l'Afrique du Sud. 10 mai 1990.</item>
+       <item>Journée nationale de l'eau. 11 mai 1990.</item>
+       <item>Réception en l'honneur de l'Assemblée de l'Atlantique nord. 11 mai 1990.</item>
+       <item>Entretien avec Takako Doi, présidente du Parti socialiste japonais. 11 mai 1990.</item>
+       <item>Réunion avec André Lajoinie. 14 mai 1990.</item>
+       <item>Réception des nouveaux associés étrangers de l'Académie des Sciences. 14 mai 1990.</item>
+       <item>Clôture de la journée Information et commerce international. 15 mai 1990.</item>
+       <item>Signature de la Convention nationale sur l'eau entre l'État et EDF. 16 mai 1990.</item>
+       <item>Entretien avec Lee Kuan Yew, Premier ministre de Singapour. 21 mai 1990.</item>
+       <item>Forum Livre blanc Île-de-France. 22 mai 1990.</item>
+       <item>Entretien avec Tadeuusz Mazowiecki, Premier ministre de Pologne. 28 mai 1990. [5 photographies].</item>
+       <item>Entretien avec Gareth Evans, ministre des Affaires étrangères d'Australie. 29 mai 1990.</item>
+       <item>Ouverture de l'Assemblée générale du crédit local de France. 29 mai 1990.</item>
+       <item>Table ronde sur l'immigration et l'intégration. 29 mai 1990.</item>
+       <item>Entretien avec Sa Majesté Carl XVI Gustave, roi de Suède, et des industriels suédois. 30 mai 1990. [2 photographies].</item>
+       <item>Réception des médaillés olympiques. 30 mai 1990. [Liste des médaillés].</item>
+       <item>Entretien avec Enrique Silva Cimma, ministre des Affaires étrangères du Chili. 31 mai 1990.</item>
+       <item>Conférence de presse pour le lancement des rencontres du renouveau du service public. 5 juin 1990.</item>
+       <item>Déjeuner avec l'École des études en sciences sociales. 5 juin 1990.</item>
+       <item>Présentation du tableau du Titien. 5 juin 1990.</item>
+       <item>Déjeuner avec les responsables des universités nouvelles de la région parisienne. 7 juin 1990.</item>
+       <item>Réception en l'honneur de Nelson Mandela, leader politique d'Afrique du Sud. 7 juin 1990.</item>
+       <item>Rencontre avec Yves Jouffa, président de la Ligue des droits de l'Homme. 7 juin 1990. [2 photographies].</item>
+       <item>Clôture du colloque de l'observatoire du Sahara et du Sahel. 7 juin 1990.</item>
+       <item>Entretien avec Jack Welch, président de General Electric. 8 juin 1990.</item>
+       <item>Séminaire gouvernemental sur le renouveau du service public. 11 juin 1990.</item>
+       <item>Entretien avec Ali Alatas, ministre des Affaires étrangères d'Indonésie. 12 juin 1990.</item>
+       <item>Entretien avec Casimir Oyé Mba, Premier ministre du Gabon. 13 juin 1990.</item>
+       <item>Exposition à l'institut Charles de Gaulle à Paris. 15 juin 1990. [2 photgraphies].</item>
+       <item>Cérémonies du 18 juin. 18 juin 1940. [2 photographies].</item>
+       <item>Entretien avec Lothar de Maizière, Premier ministre de la République démocratique d'Allemagne (RDA). 19 juin 1990.</item>
+       <item>Conseil national de la langue française. 19 juin 1990. </item>
+       <item>Installation de la Commission natioanle du contrôle des comptes de campagne. 19 juin 1990.</item>
+       <item>Entretien avec Konstantínos Mitsotákis, Premier ministre de Grèce. 19 juin 1990.</item>
+       <item>Entretien avec Atanraoi Baiteke, secrétaire général de la Commission du Pacifique Sud. 20 juin 1990.</item>
+       <item>Délégation France Plus conduite par Arezki Dahmani, économiste et militant politique. 21 juin 1990.</item>
+       <item>Décoration de Jessye Norman, chevalier de la Légion d'honneur. 21 juin 1990.</item>
+       <item>Remise du rapport sur la rénovation de la coopération hors champ par Alain Vivien. 22 juin 1990.</item>
+       <item>Entretien avec la Fédération française des donneurs de sang bénévoles. 22 juin 1990.</item>
+       <item>Entretien avec József Antall, Premier ministre de Hongrie. 22 juin 1990.</item>
+       <item>Décoration de Cho Choong Hoon, président de Korea Air, des insignes de Grand officier de la Légion d'honneur. 22 juin 1990.</item>
+       <item>Lancement de la campagne Sécurité routière 1990. 26 juin 1990.</item>
+       <item>Assises nationales de l'université de la Sorbonne. 26 juin 1990.</item>
+       <item>Décorations de madame Robert et de messieurs Simon, Briguet, Perret et Poulet. 28 juin 1990.</item>
+       <item>Entretien avec César Gaviria, président de Colombie. 29 juin 1990. [3 photographies].</item>
+       <item>Remise d'un cadeau par le Général Forray, chef d'État-Major des armées à Michel Rocard à Poitiers (Vienne). 1er juillet 1990.</item>
+       <item>Présentation du système RITA à Poitiers (Vienne). 1er juillet 1990.</item>
+       <item>Présentation de l'enseignement assisté par ordinateur à l'école des sous-officiers d'active à Saint-Maixent (Deux-Sèvres). 1er juillet 1990. [2 photographies].</item>
+       <item>Présentation du rapport de la CNIL par Jacques Fauvet. 9 juillet 1990.</item>
+       <item>Installation du Conseil national des missions locales. 10 juillet 1990.</item>
+       <item>Entretien avec Robert Fitzpatrick, PDG d'Eurodisney. 10 juillet 1990.</item>
+       <item>Signature de la Convention entre l'État et le Comité d'organisation des Ve Jeux paralympiques. 18 juillet 1990.</item>
+       <item>Installation du Comité d'évalutation des politiques publiques par François Mitterrand, président de la République. 13 juillet 1990.</item>
+       <item>Cérémonies du 14 juillet. 14 juillet 1990. [6 photographies].</item>
+       <item>Entretien avec Michel Barat, Grand Maître de la Grande Loge de France. 23 juillet 1990.</item>
+       <item>Remise du rapport "Grand stade" par Jean Glavany. 23 juillet 1990.</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0766_L.msp#FRAN_0157_0860_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-4or1ybi0z--1b82bdhskopm1">
+    <did>
+     <unitid type="cote-de-consultation">680AP/410</unitid>
+      <unittitle>Réceptions officielles, tome X.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1990-01-01 / 1991-12-31">1990-1991</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>96 photographies dont 77 N&amp;B et 19 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (juillet 1990-janvier 1991).</p>
+      <list>
+       <item>Réception à la Conférence mondiale du scoutisme. 23 juillet 1990. [2 photographies].</item>
+       <item>Entretien avec le général Lee Sang-Hoon, ministre de la Défense nationale de la République de Corée. 1er août 1990.</item>
+       <item>Entretien avec Andrei Lukanov, Premier ministre de Bulgarie. 10 août 1990.</item>
+       <item>Entretien avec François Périgot, président du CNPF. 20 août 1990.</item>
+       <item>Entretien avec Nicéphore Soglo, Premier ministre du Bénin. 22 août 1990.</item>
+       <item>Pierre Trousset, président des CES régionaux et Henri Lagauche, président du CES Champagne-Ardennes. 28 août 1990.</item>
+       <item>Entretiens avec Antoine Blanca, secrétaire général adjoint de l'ONU. 10 septembre 1990.</item>
+       <item>Entretien avec le cheikh Saad Al-Abdullah Al-Salim Al-Sabah, prince héritier, Premier ministre de l'État du Koweït. 10 septembre 1990.</item>
+       <item>Entretien avec Noboru Takeshita, ancien Premier ministre du Japon, président du groupe d'amité franco-japonais à la diète. 11 septembre 1990.</item>
+       <item>Délégation de stagiaires néo-calédoniens. 14 septembre 1990.</item>
+       <item>Entretien avec Henry Jean-Baptiste, député de Mayotte et Marcel Henry, sénateur. 17 septembre 1990.</item>
+       <item>Entretien avec Alexandre Leontieff, président du gouvernement de Polynésie française. 19 septembre 1990.</item>
+       <item>Signature du contrant de ville pour l'agglomération de Saint-Nazaire (Loire-Atlantique). 19 septembre 1990.</item>
+       <item>Ouverture de la session de l'Institut d'administration publique. 21 septembre 1990.</item>
+       <item>Entretien avec Jean-Pascal Delamuraz, ministre de l'Économie et des Finances suisse. 24 septembre 1990.</item>
+       <item>Entretien avec József Antall, Premier ministre de Hongrie. 25 septembre 1990.</item>
+       <item>Entretien avec Zhou Jue, ambassadeur de Chine en France. 28 septembre 1990.</item>
+       <item>Rencontre nationale du développement social urbain "Villes en marche". 28 septembre 1990.</item>
+       <item>Inauguration de l'exposition "Art kanak de jade et de nacre". 28 septembre 1990. [2 photographies].</item>
+       <item>Entretien avec Franz Vranitzky, chancelier fédéral d'Autriche. 1er octobre 1990.</item>
+       <item>Entretien avec João Havelange, président de la Fédération internationale de football. 4 octobre 1990.</item>
+       <item>10e anniversaire de l'Institut de développement des industries agricoles et alimentaires (IDIA). 4 octobre 1990.</item>
+       <item>20e anniversaire de l'Union nationale des associations de soins et de services à domicile. 5 octobre 1990.</item>
+       <item>Association française des maires de Nouvelle-Calédonie. 8 octobre 1990.</item>
+       <item>Entretien avec Carlos Ominami, ministre de l’Économie du Chili. 9 octobre 1990.</item>
+       <item>Entretien avec Vytautas Landsbergis, président du conseil suprême de la République de Lituanie. 12 octobre 1990.</item>
+       <item>Réunion avec André Diligent, Yves Dauge, Gilbert Bonnemaison et Herbert Marcuse. 17 octobre 1990.</item>
+       <item>Rencontre avec François Burck, président de l'Union calédonienne et Léopold Jorédie, premier vice-président de l'Union calédonienne et président de la province nord de Nouvelle Calédonie. 15 octobre 1990.</item>
+       <item>Réception des médailés d'or et champions français aux épreuves sportives mondiales et européennes de l'année 1990. 16 octobre 1990.</item>
+       <item>Départ de M. Lyon-Caen. 23 octobre 1990.</item>
+       <item>Conférence à l'IHEDN. 22 octobre 1990.</item>
+       <item>Colloque national "Développement - solidarité". 25 octobre 1990.</item>
+       <item>Remise du diplôme du manager de l'année du nouvel économiste à Raymond Lévy. 25 octobre 1990.</item>
+       <item>Congrès national des maires de France. 25 octobre 1990.</item>
+       <item>Signature du contrat de ville de Saint-Denis-de-la-Réunion. 25 octobre 1990.</item>
+       <item>Entretien avec Louis Mermaz et Raymond Lacombe. 25 octobre 1990.</item>
+       <item>Présentation du "Club France" et de l'équipe de France de vol à voile. 26 octobre 1990.</item>
+       <item>Entretien avec David Lévy, ministre des Affaires étrangères d'Israël. 29 octobre 1990.</item>
+       <item>Assises nationales de la modernisation négociée au CNIT La Défense. 30 octobre 1990.</item>
+       <item>Comité interministériel d'aménagement du territoire. 5 novembre 1990.</item>
+       <item>Présentation par Jean-Baptiste Duroselle de son ouvrage <emph render="italic">L'Europe, histoire de ses peuples</emph>. 5 novembre 1990.</item>
+       <item>Décorations de messieurs Julliard, Lallier, Soulage, Durilleux, Meyer. 6 novembre 1990.</item>
+       <item>Réception au quai d'Orsay lors du colloque "de Gaulle en son siècle". 19 novembre 1990. [2 photgraphies].</item>
+       <item>Entretien avec Ingvar Carlsson, Premier ministre de Suède. 20 novembre 1990.</item>
+       <item>Entretien avec Gro Harlem Brundtland, Premier ministre de Norvège. 20 novembre 1990.</item>
+       <item>Remise du rapport "Réflexions pour l'opération d'urbanisme du site de Billancourt" par Jean Rouillier. 21 novembre 1990.</item>
+       <item>Inauguration de l'exposition Antarctique avec le commandant Cousteau. 22 novembre 1990.</item>
+       <item>Entretien avec Jean-Pierre Mailles, président de la FCPE. 22 novembre 1990.</item>
+       <item>Conseil consultatif coutumier de Nouvelle-Calédonie. 22 novembre 1990.</item>
+       <item>Entretien avec Jacques Hui, président de la Fédération des parents d'élèves de l'enseignement public (PEEP). 23 novembre 1990.</item>
+       <item>Assises nationales "Violences faites aux femmes". 23 novembre 1990.</item>
+       <item>Présentation du Comité interministériel pour les formes civiles du service national. 26 novembre 1990.</item>
+       <item>Réunion avec les présidents de régions. 27 novembre 1990.</item>
+       <item>Entretien avec Claudio Martelli, vice-président du Conseil italien. 27 novembre 1990.</item>
+       <item>Réunions avec les préfets et les recteurs d'académie au ministère de l'Éducation nationale. 27 novembre 1990.</item>
+       <item>Remise du rapport "Grand Stade" par Jean Glavany. 27 novembre 1990.</item>
+       <item>Renouveau du service public "Rencontres nationales". 29 novembre 1990.</item>
+       <item>Décorations de messieurs Berrux, Fenix, Palliet et Viguier du service de sécurité. 30 novembre 1990.</item>
+       <item>Intersyndicale des professions de justice. 3 décembre 1990.</item>
+       <item>Mission de réflexion sur la commnuauté rapatriée d'origine nord-africaine. 4 décembre 1990.</item>
+       <item>Séance plénière du nouveau Conseil national de la vie associative. 4 décembre 1990.</item>
+       <item>Entretien avec Ali Akbar Velayati, ministre des Affaires étrangères d'Iran. 5 décembre 1990.</item>
+       <item>Séminaire gouvernemental consacré à la politique de la ville. 7 décembre 1990.</item>
+       <item>Inauguration de l'Institut d'études de sécurité de l'Union de l'Europe occidentale (UEO). 10 décembre 1990.</item>
+       <item>Conseil de l'audiovisuel extérieur de la France. 11 décembre 1990.</item>
+       <item>Entretien avec André Thien Ah Koon, député et maire du Tampon (Réunion). 11 décembre 1990.</item>
+       <item>Comité de suivi des Accords Matignon-Oudinot sur la Nouvelle-Calédonie. 11 décembre 1990.</item>
+       <item>Entretien avec Paul Neautyne et une délégation de Nouvelle-Calédonie. 13 décembre 1990.</item>
+       <item>Entretien avec Mario Machungo, Premier ministre du Mozambique. 14 décembre 1990.</item>
+       <item>Arbre de noël de Matignon à l'Opéra de la Bastille et réception à Matignon. 15 décembre 1990. [3 photographies].</item>
+       <item>Entretien avec Hicham Nazer, ministre du Pétrole d'Arabie Saoudite. 17 décembre 1990.</item>
+       <item>Cérémonie du départ du porte-hélicoptère, la Jeanne d'Arc, à Brest. 18 décembre 1990. [4 photographies].</item>
+       <item>Décorations de messieurs Soldani, Lenoard, Juin, Neuville, Degremont. 20 décembre 1990.</item>
+       <item>Voeux du SGG. 7 janvier 1991.</item>
+       <item>Voeux de la presse. 8 janvier 1991.</item>
+       <item>Forum de l'expansion à l'hôtel Méridien. 10 janvier 1991.</item>
+       <item>Réunion avec les représentants du mouvement sportif : Fournet, Fayard, Sastre, Ferrasse, Bodin et Paillou. 14 janvier 1991.</item>
+       <item>Entretien avec Georges Valbon, président du Conseil général de Seine-Saint-Denis. 14 janvier 1991.</item>
+       <item>Cérémonie des voeux à l'École nationale d'administration (ENA). 15 janvier 1991.</item>
+       <item>Réunion Crise du Golfe. 17 janvier 1991.</item>
+       <item>Entertien avec André Azoulay et la délégation de "Dialogue". 18 janvier 1991.</item>
+       <item>Entretien avec Zou Jiahua, vice-Premier ministre de la République populaire de Chine. 18 janvier 1991.</item>
+       <item>Déjeuner à Matignon des "Clubs Pays". 18 janvier 1991.</item>
+       <item>Entretien avec Arthur Dunkel, directeur général du General Agreement on Tariffs and Trade (GATT). 24 janvier 1991.</item>
+       <item>Départ de messieurs Petit et Rigaudiat. 24 janvier 1991.</item>
+       <item>Entretien avec Janis Jurkans, ministre des Affaires étrangères de Lettonie et Algirdas Saudargas, ministre des Affaires étrangères de Lituanie. 25 janvier 1991.</item>
+       <item>Délégation France Plus, conduite par Arezki Dahmani. 26 janvier 1991.</item>
+       <item>Entretien avec Balcerowicz Leszek, ministre polonais des Finances. 28 janvier 1991.</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0861_L.msp#FRAN_0157_0956_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-4ow3h13l9-18fgivvvpepas">
+    <did>
+     <unitid type="cote-de-consultation">680AP/411</unitid>
+      <unittitle>Réceptions officielles, tome XI.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1991-01-01 / 1991-12-31">1991</unitdate>
+      <physdesc>
+      <dimensions>24x17,8 cm</dimensions>
+       <extent>93 photographies dont 47 N&amp;B et 46 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réceptions officielles à Matignon et déplacements de Michel Rocard, Premier ministre (janvier-mai 1991).</p>
+      <list>
+       <item>Entretien avec le pasteur Jacques Maury et Geneviève Jacques. 29 janvier 1991.</item>
+       <item>Entretien avec le père Jean-Bertrand Aristide, président d’Haïti. 29 janvier 1991.</item>
+       <item>Entretien avec Laurent Giovannoni, accompagné d'unr délégation du réseau d'information et de solidarité. 29 janvier 1991.</item>
+       <item>Commission interministérielle pour la reconstrution de la Guadeloupe. 30 janvier 1991.</item>
+       <item>Entretien avec Philippe Marchand, ministre de l'Intérieur. 4 février 1991.</item>
+       <item>Entretien avec Zheng Hongye, président du patronat chinois. 5 février 1991.</item>
+       <item>Comité interministériel des villes et développement social urbain. 7 février 1991.</item>
+       <item>Décoration de M. Denoix de Saint-Marc, officier de la Légion d'honneur. 7 février 1991.</item>
+       <item>Entretien avec Cornelio Sommaruga, président du comité international de la Croix Rouge. 13 février 1991.</item>
+       <item>Réunion perspectives emploi chômage, relance des contrats emploi solidarité. 13 février 1991.</item>
+       <item>Remise du rapport du haut Conseil à l'intégration par Marceau Long. 18 février 1991.</item>
+       <item>Entretien et déjeuner au quai d'Orsay avec Rodrigo Borja, président de l'Équateur. 19 février 1991. [9 photographies].</item>
+       <item>Réunion avec les présidents des grands fédérations industrielles : Banzt, Gondran, Seguy, Bary, Achille, Lepatre, Mer, Ravenel, Guillem. 21 février 1991.</item>
+       <item>Remise d'un rapport par Christian Sautter, préfet de la région Île-de-France. 28 février 1991.</item>
+       <item>Entretien avec Ahmed Alptemocin, ministre des Affaires étrangères de Turquie. 1er mars 1991.</item>
+       <item>Entretien avec Ovadia Sofer, ambassadeur d’Israël en France. 4 mars 1991.</item>
+       <item>Déjeuner en l'honneur de la reine Beatrix des Pays-Bas et son époux le prince Claus. 5 mars 1991. [3 photographies].</item>
+       <item>Entretien avec Monseigneur Duval, président de la conférence des Êvèques de France. 6 mars 1991.</item>
+       <item>Déjeuner des membres du gouvernement, cellule de crise du Golfe. 7 mars 1991.</item>
+       <item>Entretien avec André Dufour, délégué général du Québec. 7 mars 1991.</item>
+       <item>Réception à l'occasion de la Journée internationale des femmes. 8 mars 1991.</item>
+       <item>Comité interministériel chargé des droits des femmes. 8 mars 1991.</item>
+       <item>Voyage officiel à Washington du 9 au 11 mars 1991 et rencontre avec George Bush, président des États-Unis. [11 photographies].</item>
+       <item>Entretien avec une délégation de la Fédération des accidents du travail et des handicapés. 19 mars 1991.</item>
+       <item>Décoration d'André Salomon, officier de la Légion d'honneur. 19 mars 1991.</item>
+       <item>Réunion du Conseil de sécurité intérieur. 19 mars 1991.</item>
+       <item>Séance de clôture des assises nationales de l'eau. 20 mars 1991.</item>
+       <item>Entretien avec Florence Arthaud, navigatrice. 20 mars 1991.</item>
+       <item>Inauguration de l'Institut des hautes études judiciaires. 21 mars 1991.</item>
+       <item>Installation et remise à Michel Rocard du rapport 1990 contre le racisme par Paul Bouchet, président de la Commission nationale consultative des droits de l'Homme. 21 mars 1991.</item>
+       <item>Entretien avec Richard von Weizsaecjer, président de la RFA. 21 mars 1991.</item>
+       <item>Inauguration du Salon du livre. 21 mars 1991.</item>
+       <item>Entretien avec Piet Dankert, secrétaire d'État aux Affaires étrangères des Pays-Bas. 25 mars 1991.</item>
+       <item>Entretien avec Paul Marchelli, président de la CFE-CGC. 25 mars 1991.</item>
+       <item>Visite officielle de Michel Rocard à Berne (Suisse). 26 mars 1991. [11 photographies].</item>
+       <item>Célébration du plan social étudiant. 27 mars 1991.</item>
+       <item>Entretien à Marigny (Manche) avec le roi Hussein de Jordanie. 29 mars 1991.</item>
+       <item>Décoration de messieurs Perreau, Duby, Saint-Geours, Larquie, Soulage. 29 mars 1991.</item>
+       <item>Séminaire de travail de scientifiques européens. 7 avril 1991.</item>
+       <item>Déplacement de Michel Rocard à Deuil-la-Barre et Villiers-le-Bel (Val d'Oise). 4 avril 1991. [2 photographies].</item>
+       <item>Déplacement à Orléans (Loiret). 9 avril 1991.</item>
+       <item>Déjeuner offert en l'honneur Lech Walesa, président de la République de Pologne et son épouse. 10 avril 1991. [3 photographies].</item>
+       <item>Entretien avec Jan Krzysztof Bielecki, Premier ministre de Pologne. 11 avril 1991.</item>
+       <item>Séminaire gouvernemental Renouveau du service public. 11 avril 1991.</item>
+       <item>20e anniversaire de la loi de 1971 sur la formation professionnelle. 14 avril 1991.</item>
+       <item>Entretien avec Zhu Rongji , vice-Premier ministre de Chine. 16 avril 1991.</item>
+       <item>Entretien avec James Grant, directeur général de l'UNICEF. 16 avril 1991.</item>
+       <item>Réunion avec les élus de la Réunion : André Thien Ah Koon, Jean-Paul Virapoulé et Gilbert Annette. 16 avril 1991.</item>
+       <item>Rencontre nationale de formation supérieure et de l'emploi. 18 avril 1991.</item>
+       <item>Entretien avec Javier Perez de Cuellar, secrétaire général de l'ONU. 19 avril 1991.</item>
+       <item>Signature du 200 000e contrat de stage de crédit formation individualisée. 23 avril 1991. [2 photographies].</item>
+       <item>Entretien avec Jacques Parizeau, président du Parti québécois. 23 avril 1991.</item>
+       <item>Rencontre sur la protection sociale. 25 avril 1991.</item>
+       <item>Comité interministériel des villes et du développement social urbain. 25 avril 1991.</item>
+       <item>Entretien avec Paul-Émile Victor. 8 mai 1991.</item>
+       <item>Cérémonie du 8 mai. 8 mai 1991.</item>
+       <item>Inauguration du site industriel d'Ariane 5 aux Mureaux (Yvelines). 13 mai 1991.</item>
+       <item>Passation des pouvoirs avec Édith Cresson. 16 mai 1991.</item>
+      </list>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_0957_L.msp#FRAN_0157_1049_L.msp"/>
+     </daogrp>
+    </c>
+   </c>
+   <c id="c-20ojsyoty--vf5e156c720v">
+   <did>
+    <unitid type="identifiant">680AP/412-680AP/417</unitid>
+     <unittitle>Voyages officiels de Michel Rocard, Premier ministre.</unittitle>
+     <unitdate calendar="gregorian" era="ce" normal="1988-01-01/1990-12-31">1988-1990</unitdate>
+    </did>
+    <c id="c-21rse8qai--ik95j6e8nuym">
+    <did>
+     <unitid type="cote-de-consultation">680AP/412</unitid>
+      <unittitle>Océan indien, 27 avril 1989 - 2mai 1989.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1989-12-31">1989</unitdate>
+      <physdesc>
+      <dimensions>24/17,8 cm</dimensions>
+       <extent>30 photographies dont 7 N&amp;B et 23 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Voyages de Michel Rocard au Kénya, à la Réunion et à Djibouti.</p>
+      <p>Sont présents notamment sur les photographies : </p>
+      <p>- Le pape Jean Paul II.</p>
+      <p>- Pierre Joxe, Jean-Paul Huchon et Louis Le Pensec, membres du gouvernement de Michel Rocard.</p>
+      <p>- Monseigneur Gilbert Aubry, évêque de la Réunion.</p>
+      <p>- André Thien Ah Koon, Gilbert Annette, députés de la Réunion.</p>
+      <p>- Hassan Gouled Aptidon, président de Djibouti.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1050_L.msp#FRAN_0157_1078_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-21znk6m11--wet5fp7qsidh">
+    <did>
+     <unitid type="cote-de-consultation">680AP/413</unitid>
+      <unittitle>Nouvelle-Calédonie, 26-29 août 1988.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>24/17,8 cm</dimensions>
+       <extent>89 photographies dont 25 N&amp;B et 64 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Voyages de Michel Rocard en Nouvelle-Calédonie.</p>
+      <list>
+       <item>Michel Rocard avec sa délégation rendant visite à la gendarmerie de Canala.</item>
+       <item>Discours de Michel Rocard à l'Hôtel de ville de Nouméa sur la dimension historique des Accords de Matignon du 26 juin 1988 et la nécessité d'un développement équilibré de la Nouvelle-Calédonie.</item>
+       <item>Michel Rocard sur l'île de Lifou sous une grande hutte de la communauté mélanésienne de la grande chefferie de Wetr à Nathalo où le ministre reçoit, selon la coutume, un collier de fleurs et un présent (un tapis). </item>
+       <item>Bain de foule, rencontre avec les habitants.</item>
+      </list>
+      <p>Sur ces photographies sont présents notamment : </p>
+      <p>-Michel Rocard</p>
+      <p>-Jacques Lafleur</p>
+      <p>-Jean–Marie Tjibaou</p>
+      <p>-Jean Lèques</p>
+      <p>-Pierre Bérégovoy</p>
+      <p>-Louis Le Pensec</p>
+      <p>-Pierre Joxe.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1079_L.msp#FRAN_0157_1167_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-21t8xdbbu--1dqctoq299vwk">
+    <did>
+     <unitid type="identifiant">680AP/414-680AP/415</unitid>
+      <unittitle>Pacifique, 18-27 août 1989.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01/1989-12-31">1989</unitdate>
+     </did>
+     <c id="c-161x367hr-mugxip6djb17">
+     <did>
+      <unitid type="cote-de-consultation">680AP/414</unitid>
+       <unittitle>Tome I.</unittitle>
+       <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1989-12-31">1989</unitdate>
+       <physdesc>
+       <dimensions>24/17,8 cm</dimensions>
+        <extent>95 photographies couleur.</extent>
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>18–19 août 1989.Voyage de Michel Rocard en Australie.</p>
+       <p>20–22 août 1989. Voyage de Michel Rocard en Nouvelle–Calédonie.</p>
+       <p>23 août 1989. Voyage de Michel Rocard aux Iles Fidji.</p>
+       <p>24 août 1989. Voyage de Michel Rocard à Wallis-et-Futuna.</p>
+       <p>Sont présents notamment sur les photographies : </p>
+       <p>- Michèle Legendre–Rocard, épouse de Michel Rocard.</p>
+       <p>- Louis le Pensec et Edwige Avice, membres du gouvernement de Michel Rocard.</p>
+       <p>- Bob Hawke, Premier ministre d'Australie.</p>
+      </scopecontent>
+      <daogrp>
+       <daoloc href="FRAN_0157_1168_L.msp#FRAN_0157_1238_L.msp"/>
+      </daogrp>
+     </c>
+     <c id="c-163c6b6c7--1ttzotdg55cee">
+     <did>
+      <unitid type="cote-de-consultation">680AP/415</unitid>
+       <unittitle>Tome II.</unittitle>
+       <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1989-12-31">1989</unitdate>
+       <physdesc>
+       <dimensions>24/17,8 cm</dimensions>
+        <extent>71 photographies couleur.</extent>
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>24 août 1989.Voyage de Michel Rocard à Wallis-et-Futuna.</p>
+       <p>25–26 août 1989. Voyage de Michel Rocard en Polynésie française.</p>
+       <p>Sont présents notamment sur les photographies : </p>
+       <p>- Michèle Legendre-Rocard, épouse de Michel Rocard.</p>
+       <p>- Louis Le Pensec, Edwige Avice et Yves Colmou, membres du gouvernement de Michel Rocard.</p>
+       <p>- Jean Juventin, député de Polynésie française.</p>
+       <p>- Alexandre Leontieff, président du gouvernement de Polynésie française.</p>
+       <p>- Paul-Émile Victor, écrivain.</p>
+      </scopecontent>
+      <daogrp>
+       <daoloc href="FRAN_0157_1239_L.msp#FRAN_0157_1334_L.msp"/>
+      </daogrp>
+     </c>
+    </c>
+    <c id="c-21uw3j5nr--1143vv2gjh4vq">
+    <did>
+     <unitid type="cote-de-consultation">680AP/416</unitid>
+      <unittitle>Yougoslavie, 6-7 décembre 1989.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1989-12-31">1989</unitdate>
+      <physdesc>
+      <dimensions>22,4/17,5 cm</dimensions>
+       <extent>23 photographies couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Sont présents notamment sur les photographies :</p>
+      <p>- Michèle-Legendre Rocard.</p>
+      <p>- Branko Mikulic, Premier ministre de Yougoslavie.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1335_L.msp#FRAN_0157_1359_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-21w2f1ru0-d98qazkezvpe">
+    <did>
+     <unitid type="cote-de-consultation">680AP/417</unitid>
+      <unittitle>Inde et Thaïlande, 17-21 janvier 1990.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1990-01-01 / 1990-12-31">1990</unitdate>
+      <physdesc>
+      <dimensions>24/17,8 cm</dimensions>
+       <extent>72 photographies couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Sont notamment présents sur ces photographies : </p>
+      <p>- Michèle Legendre-Rocard et Edwige Avice.</p>
+      <p>- Vishwanath Pratap Singh, Premier ministre d'Inde.</p>
+      <p>- Ramaswamy Venkataraman, président d'Inde.</p>
+      <p>- Chatichaï Choonavan, Premier ministre de Thaïlande.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1360_L.msp#FRAN_0157_1431_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-21xalzc2k-pb22y87qelk1">
+    <did>
+     <unitid type="cote-de-consultation">680AP/418</unitid>
+      <unittitle>Japon, 19-22 juillet 1990.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1990-01-01 / 1990-12-31">1990</unitdate>
+      <physdesc>
+      <dimensions>24/17,8 cm</dimensions>
+       <extent>42 photographies couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Sont présents notamment sur ces photographies : </p>
+      <p>- Michèle Legendre-Rocard.</p>
+      <p>- Claude Sérillon et Catherine Ceylac, journalistes. </p>
+      <p>- Toshiki Kaifu, Premier ministre du Japon.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1432_L.msp#FRAN_0157_1479_L.msp"/>
+     </daogrp>
+    </c>
+   </c>
+   <c id="c-3o7s8y114--ducv7mo4v61b">
+   <did>
+    <unitid type="identifiant">680AP/419-680AP/420</unitid>
+     <unittitle>Événements, visites de chefs d'État</unittitle>
+     <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+    </did>
+    <c id="c-3wpd6dfew-1r7bysy600j83">
+    <did>
+     <unitid type="cote-de-consultation">680AP/419</unitid>
+      <unittitle>Anniversaire de Michel Rocard, 23 août 1988.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>17,8/11,9 cm</dimensions>
+       <extent>27 photographies couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Réception donnée pour les 58 ans de Michel Rocard.</p>
+      <p>Sont présents notamment sur les photographies :</p>
+      <p>- Michèle-Legendre Rocard.</p>
+      <p>- Yves Rocard, père de Michel Rocard.</p>
+      <p>- Jean-Paul Huchon, directeur du cabinet de Michel Rocard.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1480_L.msp#FRAN_0157_1506_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-3wqx351kc--137qngf2z46o4">
+    <did>
+     <unitid type="cote-de-consultation">680AP/420</unitid>
+      <unitid type="pieces">Album 1</unitid>
+      <unittitle>Visite de Zine el-Abidine Ben Ali, président de la Tunisie, 14 septembre 1988.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>24/17,8 cm</dimensions>
+       <extent>18 photographies dont 3 N&amp;B et 15 Couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Visite officielles où sont présents notamment sur les photographies :</p>
+      <p>-Michèle Legendre-Rocard.</p>
+      <p>- Roland Dumas, ministre des Affaires étrangères.</p>
+      <p>- Zine el-Abidine Ben Ali, président de la Tunisie.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1507_L.msp#FRAN_0157_1524_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-3ws8l190v-1jt4l37hx2wjr">
+    <did>
+     <unitid type="cote-de-consultation">680AP/420</unitid>
+      <unitid type="pieces">Album 2</unitid>
+      <unittitle>Visite de Hosni Moubarak, président d’Égypte, 27 septembre 1988.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>22,2/17,8 cm</dimensions>
+       <extent>28 photographies dont 3 N&amp;B et 25 couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Visite officielle où sont notamment présents sur les photographies : </p>
+      <p>- Michèle Legendre-Rocard.</p>
+      <p>- Hosni Moubarak président d'Égypte et son épouse Suzanne.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1525_L.msp#FRAN_0157_1553_L.msp"/>
+     </daogrp>
+    </c>
+    <c id="c-3wtjotb8q--chxqmo0tksce">
+    <did>
+     <unitid type="cote-de-consultation">680AP/420</unitid>
+      <unitid type="pieces">Album 3</unitid>
+      <unittitle>Visite de la princesse de Galles et du prince de Galles, 7-11 novembre 1988.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1988-01-01 / 1988-12-31">1988</unitdate>
+      <physdesc>
+      <dimensions>22,5/17,8 cm</dimensions>
+       <extent>22 photographies couleur</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <list>
+       <item>Arrivée à l'aéroport de Roissy (Val d'Oise). 7 novembre 1988.</item>
+      </list>
+      <p>Sont présents notamment sur les photographies : </p>
+      <p>- Diana Spencer princesse de Galles.</p>
+      <p>- Charles prince de Galles.</p>
+      <p>- Michèle Legendre-Rocard.</p>
+      <list>
+       <item>La princesse de Galles et Michèle Legendre-Rocard, Matignon, Paris. 8 novembre 1988.</item>
+       <item>Michel Rocard et le prince de Galles, Matignon, Paris. 8 novembre 1988.</item>
+       <item>Visite de l'Institut Pasteur avec la princesse de Galles, Paris.</item>
+       <item>Dîner officiel. 8 novembre 1988.</item>
+       <item>Commémoration du 11 novembre.</item>
+      </list>
+      <p>Sont présents notamment lors de cette cérémonie : </p>
+      <p>- François Mitterrand, président de la République.</p>
+      <p>- Le prince Charles.</p>
+      <p>- Jacques Chirac, maire de Paris.</p>
+      <p>- Jean-Pierre Chevènement, ministre de la Défense.</p>
+      <p>- Jean Tibéri, député de Paris.</p>
+     </scopecontent>
+     <daogrp>
+      <daoloc href="FRAN_0157_1554_L.msp#FRAN_0157_1575_L.msp"/>
+     </daogrp>
+    </c>
+   </c>
+   <c id="c-yni9f67jt-oacatq31kv4m">
+   <did>
+    <unitid type="identifiant">680AP/421-680AP/423</unitid>
+     <unittitle>Albums offerts à Michel Rocard.</unittitle>
+     <unitdate calendar="gregorian" era="ce" normal="1988-01-01/1990-12-31">1988-1990</unitdate>
+    </did>
+    <c id="c-4lmruxz2g-weqggw9gyzbx">
+    <did>
+     <unitid type="cote-de-consultation">680AP/421</unitid>
+      <unittitle>Albums offerts lors des visites de Michel Rocard.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01/1990-12-31">1989-1990</unitdate>
+     </did>
+     <bioghist>
+      <p>Ces albums ont été réalisés par les pays visités par Michel Rocard.</p>
+      <p>Ils ne font pas mention du service photographique de Matignon.</p>
+     </bioghist>
+     <c id="c-4mtauq59m--j0xf3oi4gzx6">
+     <did>
+      <unitid type="cote-de-consultation">680AP/421</unitid>
+       <unitid type="pieces">Album 1</unitid>
+       <unittitle>Visite de Michel Rocard en Tunisie, 7 novembre 1989.</unittitle>
+       <unitdate calendar="gregorian" era="ce" normal="1989-01-01/1989-12-31">1989</unitdate>
+       <physdesc>
+       <dimensions>25/17,8 cm</dimensions>
+        <extent>24 photographies couleur.</extent>
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>Visite de Michel Rocard lors d'une célébration politique tunisienne.</p>
+       <p>Sont présents notamment sur les photographies :</p>
+       <p>- Zine el–Abidine Ben Ali, président de la Tunisie.</p>
+       <p>- Alain Grenier, ambassadeur de France en Tunisie.</p>
+      </scopecontent>
+     </c>
+     <c id="c-4muskppps--xx0cdr2309q0">
+     <did>
+      <unitid type="cote-de-consultation">680AP/421</unitid>
+       <unitid type="pieces">Album 2</unitid>
+       <unittitle>Visite de Michel Rocard à la Réunion, 29 avril-2 mai 1989.</unittitle>
+       <unitdate calendar="gregorian" era="ce" normal="1989-01-01/1989-12-31">1989</unitdate>
+       <physdesc>
+       <dimensions>18,8/12,7 cm</dimensions>
+        <extent>34 photographies couleur.</extent>
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>Visite de Michel Rocard à la Réunion.</p>
+       <p>(Photographies de Jacques Parent, Brigade de recherches de la gendarmerie de la Réunion)</p>
+       <p>Sont présents notamment sur les photographies :</p>
+       <p>- Le pape Jean Paul II.</p>
+       <p>- Pierre Joxe, Jean–Paul Huchon et Louis Le Pensec, membres du gouvernement de Michel Rocard.</p>
+       <p>- Monseigneur Gilbert Aubry, évêque de la Réunion.</p>
+       <p>- André Thien Ah Koon, Gilbert Annette, députés de la Réunion.</p>
+      </scopecontent>
+     </c>
+     <c id="c-4mwf03t8h-1k81o3lavhyxb">
+     <did>
+      <unitid type="cote-de-consultation">680AP/421</unitid>
+       <unitid type="pieces">Album 3</unitid>
+       <unittitle>Visite de Michel Rocard en Inde, 18-19 janvier 1990.</unittitle>
+       <unitdate calendar="gregorian" era="ce" normal="1990-01-01/1990-12-31">1990</unitdate>
+       <physdesc>
+       <dimensions>25,8/18,7 cm</dimensions>
+        <extent>41 photographies dont 17 N&amp;B et 24 couleur.</extent>
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>Sont notamment présents sur ces photographies : </p>
+       <p>- Michèle Legendre–Rocard.</p>
+       <p>- Vishwanath Pratap Singh, Premier ministre d'Inde.</p>
+       <p>- Ramaswamy Venkataraman, président d'Inde.</p>
+      </scopecontent>
+     </c>
+    </c>
+    <c id="c-5cf2n2s37-1wb1bblhkxdtw">
+    <did>
+     <unitid type="cote-de-consultation">680AP/422</unitid>
+      <unittitle>Albums offerts lors des visites de Michel Rocard.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01/1990-12-31">1989-1990</unitdate>
+     </did>
+     <bioghist>
+      <p>Ces albums ont été réalisés par les pays visités par Michel Rocard.</p>
+      <p>Ils ne font pas mention du service photographique de Matignon.</p>
+     </bioghist>
+     <c id="c-5gxv24euj--151jd4giywknn">
+     <did>
+      <unitid type="cote-de-consultation">680AP/422</unitid>
+       <unitid type="pieces">Album 1</unitid>
+       <unittitle>Visite à Brest, 25 mai 1989.</unittitle>
+       <unitdate calendar="gregorian" era="ce" normal="1989-01-01/1989-12-31">1989</unitdate>
+       <physdesc>
+       <dimensions>23,5/17,3 cm</dimensions>
+        <extent>29 photographies couleur.</extent>
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>Visite des infrastructures militaires à Brest (Finistère).</p>
+      </scopecontent>
+     </c>
+     <c id="c-5gzgxjic9-pea049atf75k">
+     <did>
+      <unitid type="cote-de-consultation">680AP/422</unitid>
+       <unitid type="pieces">Album 2</unitid>
+       <unittitle>Signature de la convention de Lomé IV, 15 décembre 1989.</unittitle>
+       <unitdate calendar="gregorian" era="ce" normal="1989-01-01 / 1989-12-31">1989</unitdate>
+       <physdesc>
+       <dimensions>17,4/12,7 cm</dimensions>
+        <extent>102 photographies couleur.</extent>
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>Signature de la 4e Convention ACP/CEE, Lomé (Togo), 15-16 décembre 1989.</p>
+       <p>Sont présents notamment sur les photographies les chefs d'État des pays Afrique-Caraïbes-Pacifique (ACP).</p>
+      </scopecontent>
+     </c>
+     <c id="c-5h11iea33-1x5qxpebc5me">
+     <did>
+      <unitid type="cote-de-consultation">680AP/422</unitid>
+       <unitid type="pieces">Album 3</unitid>
+       <unittitle>Inauguration d'une rue à Tel Aviv (Israël), janvier 1990.</unittitle>
+       <unitdate calendar="gregorian" era="ce" normal="1990-01-01/1990-12-31">1990</unitdate>
+       <physdesc>
+       <dimensions>17,4/12,7 cm</dimensions>
+        <extent>15 photographies couleur.</extent>
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>Cérémonie d'inauguration de la rue Pierre Mendès-France à Tel-Aviv (Israël).</p>
+       <p>Sont présents notamment sur les photographies :</p>
+       <p>- Shlomo Lahat, maire de Tel-Aviv.</p>
+       <p>- Shimon Peres, ministre d'Israël.</p>
+      </scopecontent>
+     </c>
+    </c>
+    <c id="c-yn08py5wr--q2zbj2sdey8i">
+    <did>
+     <unitid type="cote-de-consultation">680AP/423</unitid>
+      <unittitle>Visite de Michel Rocard à Singapour, 9-11 novembre 1990.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1990-01-01 / 1990-12-31">1990</unitdate>
+      <physdesc>
+      <extent>25 photographies couleur.</extent>
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>Visite de Michel Rocard et de son épouse à Singapour du 9 au 11 novembre 1990.</p>
+     </scopecontent>
+    </c>
+   </c>
+  </dsc>
+ </archdesc>
+</ead>
