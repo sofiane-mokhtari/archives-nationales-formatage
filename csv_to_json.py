@@ -36,9 +36,10 @@ def create_json_discours() :
 			except Exception as e:
 				print (e)
 			if ret :
+				date = row[7].replace('/', '_')
 				my_row ={
-					"id": row[7] + "-" + lieux,
-					"date": row[7].replace('/', '_'),
+					"id": date + "-" + lieux,
+					"date": date,
 					"lieu": lieux,
 					"longitude": ret[0]['centre']['coordinates'][0],
 					"latitude": ret[0]['centre']['coordinates'][1],
@@ -54,7 +55,6 @@ def create_json_discours() :
 
 def create_json_photo() :
 	data = []
-	# with open('Photo.json', 'w', encoding='utf8') as outfile:
 	with open(PATH_PHOTO, newline='') as csvfile:
 		spamreader  = csv.reader(csvfile, delimiter=';')
 		try:
@@ -62,7 +62,7 @@ def create_json_photo() :
 			for row in spamreader:
 				if (i) :
 					date = row[4].split(' ')
-					date = str(date[0]) + "-" + str(change_month(date[1])) + "-" + str(date[2])
+					date = str(date[0]) + "_" + str(change_month(date[1])) + "_" + str(date[2])
 					my_row ={
 						"id": date + "-" + "Rocard",
 						"date": date,
@@ -79,33 +79,33 @@ def create_json_photo() :
 
 def change_month(month):
 	if (month == "janvier"):
-		return 1
+		return "01"
 	elif (month == "février"):
-		return 2
+		return "02"
 	elif (month == "mars"):
-		return 3
+		return "03"
 	elif (month == "avril"):
-		return 4
+		return "04"
 	elif (month == "mai"):
-		return 5
+		return "05"
 	elif (month == "juin"):
-		return 6
+		return "06"
 	elif (month == "juillet"):
-		return 7
+		return "07"
 	elif (month == "aout"):
-		return 8
+		return "08"
 	elif (month == "septembre"):
-		return 9
+		return "09"
 	elif (month == "octobre"):
-		return 10
+		return "10"
 	elif (month == "novembre"):
-		return 11
+		return "11"
 	elif (month == "decembre"):
-		return 12
+		return "12"
 
 
 def main():
-	# create_json_discours()
+	create_json_discours()
 	create_json_photo()
 
 main()
