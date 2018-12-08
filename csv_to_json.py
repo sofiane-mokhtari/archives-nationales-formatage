@@ -6,6 +6,10 @@ PATH = '/Users/victorguerand/test_Archive/formatage_donnee/03_le_politique_parle
 
 PATH_PHOTO = '/Users/victorguerand/test_Archive/formatage_donnee/03_le_politique_parle_au_citoyen/Rocard - Reportages photographiques - Inventaire/rocard_FRAN_IR_050535_photos.csv'
 
+# PATH = 'C:\\Users\\sofia\\Desktop\\formatage_donnee\\03_le_politique_parle_au_citoyen\\Rocard - Allocutions - Inventaire/FRAN_IR_050330_Rocard_allocutions.csv'
+
+# PATH_PHOTO = 'C:\\Users\\sofia\\Desktop\\formatage_donnee\\03_le_politique_parle_au_citoyen\\Rocard - Reportages photographiques - Inventaire/rocard_FRAN_IR_050535_photos.csv'
+
 def save_new_json(name, value):
 	print('done')
 	with open(name, 'w', encoding='utf8') as outfile:
