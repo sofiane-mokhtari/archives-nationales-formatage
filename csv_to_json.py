@@ -29,7 +29,8 @@ def create_json_discours() :
 									"lieux": lieux,
 									"geocalisation": ret[0]['centre']['coordinates'],
 									"typologie": remove_accents(row[6]),
-									"path": row[10]
+									"path": row[10],
+									"auteur": "Rocard" 
 									}
 								out = json.dumps(my_row, indent=4, sort_keys=True, separators=(',', ': '), ensure_ascii=False)
 								outfile.write(out)
