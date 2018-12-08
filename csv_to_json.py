@@ -50,7 +50,7 @@ def create_json_photo() :
 						date = row[4].split(' ')
 						date = str(date[0]) + "-" + str(change_month(date[1])) + "-" + str(date[2])
 						my_row ={
-							"id": date + "-" + "Rocard" + "-" + row[2],
+							"id": date + "-" + "Rocard",
 							"date": date,
 							"path": row[8],
 							"auteur": "Rocard" 
