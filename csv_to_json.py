@@ -2,7 +2,6 @@ import csv, json
 import unicodedata
 import requests
 
-
 PATH = '/Users/victorguerand/test_Archive/formatage_donnee/03_le_politique_parle_au_citoyen/Rocard - Allocutions - Inventaire/FRAN_IR_050330_Rocard_allocutions.csv'
 
 PATH_PHOTO = '/Users/victorguerand/test_Archive/formatage_donnee/03_le_politique_parle_au_citoyen/Rocard - Reportages photographiques - Inventaire/rocard_FRAN_IR_050535_photos.csv'
@@ -39,7 +38,7 @@ def create_json_discours() :
 			if ret :
 				my_row ={
 					"id": row[7] + "-" + lieux,
-					"date": row[7],
+					"date": row[7].replace('/', '_'),
 					"lieu": lieux,
 					"longitude": ret[0]['centre']['coordinates'][0],
 					"latitude": ret[0]['centre']['coordinates'][1],
@@ -54,28 +53,29 @@ def create_json_discours() :
 	save_new_json('Discours.json', data)
 
 def create_json_photo() :
-	with open('Photo.json', 'w', encoding='utf8') as outfile:
-		with open(PATH_PHOTO, newline='') as csvfile:
-			spamreader  = csv.reader(csvfile, delimiter=';')
-			try:
-				i = 0
-				for row in spamreader:
-					if (i) :
-						date = row[4].split(' ')
-						date = str(date[0]) + "-" + str(change_month(date[1])) + "-" + str(date[2])
-						my_row ={
-							"id": date + "-" + "Rocard",
-							"date": date,
-							"path": row[8],
-							"auteur": "Rocard" 
-							}
-						out = json.dumps(my_row, indent=4, sort_keys=True, separators=(',', ': '), ensure_ascii=False)
-						outfile.write(out)
-						outfile.write("\n")
-					else :
-						i = 1
-			except Exception as e:
-				print (e)
+	data = []
+	# with open('Photo.json', 'w', encoding='utf8') as outfile:
+	with open(PATH_PHOTO, newline='') as csvfile:
+		spamreader  = csv.reader(csvfile, delimiter=';')
+		try:
+			i = 0
+			for row in spamreader:
+				if (i) :
+					date = row[4].split(' ')
+					date = str(date[0]) + "-" + str(change_month(date[1])) + "-" + str(date[2])
+					my_row ={
+						"id": date + "-" + "Rocard",
+						"date": date,
+						"path": row[8],
+						"auteur": "Rocard"
+						}
+					data.append(my_row)
+				else :
+					i = 1
+		except Exception as e:
+			print (e)
+	save_new_json('Photo.json', data)
+
 
 def change_month(month):
 	if (month == "janvier"):
@@ -105,7 +105,7 @@ def change_month(month):
 
 
 def main():
-	create_json_discours()
+	# create_json_discours()
 	create_json_photo()
 
 main()
