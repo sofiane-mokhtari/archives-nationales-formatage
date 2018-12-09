@@ -124,6 +124,14 @@ def main():
         copy_manuscrit(data['path'], list_file, PATH + '/' + el['auteur'] + '/' + el['id'] + '/Manuscrits')
 
 
+        data_latlong = {
+            "lat": data['latitude'],
+            "long": data['longitude']
+        }
+
+        with open(PATH + '/' + el['auteur'] + '/' + el['id'] + '/latlong.json', 'w') as outfile:
+            json.dump(data_latlong, outfile)
+
         with open(PATH + '/' + el['auteur'] + '/' + el['id'] + '/le_discours.json', 'w') as outfile:
             json.dump(data, outfile)
 
