@@ -39,10 +39,15 @@ def create_json_discours() :
 	print(spamreader)
 	for row in csv_read:
 		lieux = remove_accents((row[5].split(","))[0])
-		if (lieux != "S. l."):
+		if ("S. l." in lieux or lieux == " "):
+			continue
+		else:
 			departement = lieux.split('(')
 			if (len(departement) == 2) :
 				lieux = departement[0][:-1]
+			if len(lieux) and lieux[0] == '[':
+				lieux = lieux.replace('[', '')
+				lieux = lieux.replace(']', '')
 			try :
 				r = requests.get("https://geo.api.gouv.fr/communes?nom="+lieux+"&fields=centre&format=json&geometry=centre")
 				ret = r.json()
