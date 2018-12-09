@@ -36,7 +36,7 @@ def get_element_json(name, element, t_value):
 def move_dir(path, name):
     path = replace_recards_to_recards(path)
     if (os.path.exists(path)):
-        copyfile(path, name + '.jpeg')
+        copyfile(path, name + '.jpg')
         print('\033[92m  Done {}  \033[0m'.format(name))
     else:
         print("fdp")

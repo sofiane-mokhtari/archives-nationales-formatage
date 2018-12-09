@@ -4,6 +4,8 @@ import sys
 from collections import Counter
 from nltk import FreqDist
 import re
+from shutil import copyfile
+
 from nltk.corpus import stopwords
 from nltk.tokenize import wordpunct_tokenize
 
@@ -16,7 +18,6 @@ PATH = "/Users/victorguerand/test_Archive/formatage_donnee"
 PATH_TO_DATASET = "/Users/victorguerand/Desktop/03 - Le politique parle au citoyen/Rocard - discours"
 
 sys.path.insert(0, PATH)
-
 
 
 def removeStopWords(words):
@@ -56,6 +57,30 @@ def read_discours(path):
     except Exception as e:
         print('\033[93m {} \033[0m'.format(e))
 
+def read_list_jpg(path):
+    path = path[2:]
+    path = path[:-16]
+    try:
+        with open(PATH_TO_DATASET + path + "liste_jpg.txt", "r") as file:
+            r = file.read()
+        return r
+    except Exception as e:
+        print('\033[93m read list_jpg {} \033[0m'.format(e))
+
+def copy_manuscrit(path, list_file, path_to_save):
+    path = path[2:]
+    path = path[:-17]
+    for l in list_file:
+        move_dir(PATH_TO_DATASET + path + '/' + l, path_to_save + '/' +  l)
+
+
+def move_dir(path, name):
+    print(path)
+    if (os.path.exists(path)):
+        copyfile(path, name)
+        print('\033[92m  Done {}  \033[0m'.format(name))
+    else:
+        print("fdp")
 
 def main():
     print(sys.path)
@@ -80,6 +105,7 @@ def main():
         data['path'] = normalize_path(data['path'])
 
         data['text'] = read_discours(data['path'])
+
         if not data['text']:
             continue
         data['key_words'] = key_word(data['text'])
@@ -88,6 +114,15 @@ def main():
         if os.path.isdir(PATH + '/' + el['auteur'] + '/' + el['id']) is False:
             print('\033[92m  Directory  {} created  \033[0m'.format(el['auteur'] + '/' + el['id']))
             os.mkdir(PATH + '/' + el['auteur'] + '/' + el['id'])
+
+
+        data['liste_jpg'] = read_list_jpg(data['path'])
+        if os.path.isdir(PATH + '/' + el['auteur'] + '/' + el['id'] + '/Manuscrits') is False:
+            os.mkdir(PATH + '/' + el['auteur'] + '/' + el['id'] + '/Manuscrits')
+
+        list_file = data['liste_jpg'].split()
+        copy_manuscrit(data['path'], list_file, PATH + '/' + el['auteur'] + '/' + el['id'] + '/Manuscrits')
+
 
         with open(PATH + '/' + el['auteur'] + '/' + el['id'] + '/le_discours.json', 'w') as outfile:
             json.dump(data, outfile)
