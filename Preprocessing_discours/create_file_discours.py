@@ -2,6 +2,10 @@ import os
 import json
 import sys
 from collections import Counter
+from nltk import FreqDist
+import re
+from nltk.corpus import stopwords
+from nltk.tokenize import wordpunct_tokenize
 
 from shutil import copyfile
 
@@ -13,6 +17,25 @@ PATH_TO_DATASET = "/Users/victorguerand/Desktop/03 - Le politique parle au citoy
 
 sys.path.insert(0, PATH)
 
+
+
+def removeStopWords(words):
+
+    data = []
+    for w in words:
+        if len(w) > 4 and w.isalpha():
+            data.append(w)
+    return data
+
+
+def key_word(txt):
+    re.sub('[^A-Za-z0-9]+', '', txt)
+
+    txt = txt.split(' ')
+    txt = removeStopWords(txt)
+    fdist1 = FreqDist(txt)
+    print (fdist1.most_common(20))
+    return fdist1
 
 def create_mot_clef():
     c = Counter(["hello", "test", "string", "people", "hello", "hello"])
@@ -57,6 +80,10 @@ def main():
         data['path'] = normalize_path(data['path'])
 
         data['text'] = read_discours(data['path'])
+        if not data['text']:
+            continue
+        data['key_words'] = key_word(data['text'])
+
 
         if os.path.isdir(PATH + '/' + el['auteur'] + '/' + el['id']) is False:
             print('\033[92m  Directory  {} created  \033[0m'.format(el['auteur'] + '/' + el['id']))
