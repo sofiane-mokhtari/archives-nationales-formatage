@@ -19,6 +19,13 @@ def remove_accents(input_str):
 	nfkd_form = unicodedata.normalize('NFKD', input_str)
 	return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
 
+
+def parse_premier(str):
+	if str == "1er":
+		return "01"
+	return str
+
+
 def create_json_discours() :
 	data = []
 	csv_read = []
@@ -69,7 +76,8 @@ def create_json_photo() :
 			for row in spamreader:
 				if (i) :
 					date = row[4].split(' ')
-					date = str(date[0]) + "_" + str(change_month(date[1])) + "_" + str(date[2])
+					jour = parse_premier(str(date[0]))
+					date = jour + "_" + str(change_month(date[1])) + "_" + str(date[2])
 					my_row ={
 						"id": date + "-" + "Rocard",
 						"date": date,
@@ -110,8 +118,9 @@ def change_month(month):
 		return "10"
 	elif (month == "novembre"):
 		return "11"
-	elif (month == "decembre"):
+	elif (month == "décembre"):
 		return "12"
+	return month
 
 
 def main():
