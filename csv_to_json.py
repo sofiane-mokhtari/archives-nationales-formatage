@@ -51,6 +51,9 @@ def create_json_discours() :
 					"path": row[10],
 					"auteur": "Rocard"
 					}
+				if not my_row['date'] or not my_row['lieu'] or not my_row['latitude'] or not my_row['longitude'] or not my_row['path']:
+					print('\033[93m Warning Empty data \033[0m')
+					continue
 				data.append(my_row)
 		print(i)
 		i += 1
@@ -73,6 +76,9 @@ def create_json_photo() :
 						"path": row[8],
 						"auteur": "Rocard"
 						}
+					if not my_row['date'] or not my_row['path']:
+						print('\033[93m Warning Empty data \033[0m')
+						continue
 					data.append(my_row)
 				else :
 					i = 1
@@ -109,7 +115,7 @@ def change_month(month):
 
 
 def main():
-	create_json_discours()
+	# create_json_discours()
 	create_json_photo()
 
 main()
