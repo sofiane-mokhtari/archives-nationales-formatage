@@ -36,8 +36,14 @@ def main():
 	dis = "Discours.json"
 	photo = "Photo.json"
 	data = read_json(dis)
+	path = os.path.isdir(line[0]['auteur'])
+	path2 = path + "\\" + os.path.isdir(line[0]['date']) + "-" + os.path.isdir(line[0]['lieux'])
 	for line in data:
 		ret = get_element_json(photo, 'date', line['date'])
-		print (ret)
+		if (os.path.isdir(path)):
+			if (os.path.isdir(path2):
+				if (os.path.isdir(path2 + "/" + "Images"):
+					for file in ret :
+						move_dir(file['path'], path2 + "/" + "Images")
 
 main()
