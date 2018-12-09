@@ -23,6 +23,8 @@ def remove_accents(input_str):
 def parse_premier(str):
 	if str == "1er":
 		return "01"
+	if len(str) > 2:
+		return str.split('-')[1]
 	return str
 
 
@@ -48,6 +50,9 @@ def create_json_discours() :
 				print (e)
 			if ret :
 				date = row[7].replace('/', '_')
+				if date[:1].isdigit() is False:
+					print('\033[93m Warning False date \033[0m')
+					continue
 				my_row ={
 					"id": date + "-" + lieux,
 					"date": date,
@@ -96,7 +101,7 @@ def create_json_photo() :
 
 
 def change_month(month):
-	if (month == "janvier"):
+	if (month == "janvier" or month == "jnavier"):
 		return "01"
 	elif (month == "février"):
 		return "02"
@@ -104,9 +109,9 @@ def change_month(month):
 		return "03"
 	elif (month == "avril"):
 		return "04"
-	elif (month == "mai"):
+	elif (month == "mai" or month == "ami"):
 		return "05"
-	elif (month == "juin"):
+	elif (month == "juin" or month == "jun"):
 		return "06"
 	elif (month == "juillet"):
 		return "07"
@@ -116,7 +121,7 @@ def change_month(month):
 		return "09"
 	elif (month == "octobre"):
 		return "10"
-	elif (month == "novembre"):
+	elif (month == "novembre" or month == "novmebre"):
 		return "11"
 	elif (month == "décembre"):
 		return "12"
@@ -124,7 +129,7 @@ def change_month(month):
 
 
 def main():
-	# create_json_discours()
+	create_json_discours()
 	create_json_photo()
 
 main()
