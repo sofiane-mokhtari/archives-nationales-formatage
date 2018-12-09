@@ -42,8 +42,8 @@ def main():
 		ret = get_element_json(photo, 'date', line['date'])
 		if (os.path.isdir(path)):
 			if (os.path.isdir(path2):
-				if (os.path.isdir(path2 + "\\" + "Images"):
+				if (os.path.isdir(path2 + "/" + "Images"):
 					for file in ret :
-						move_dir(file['path'], path2 + "\\" + "Images")
+						move_dir(file['path'], path2 + "/" + "Images")
 
 main()
