@@ -3,6 +3,10 @@ import json
 import sys
 from collections import Counter
 
+from shutil import copyfile
+
+# copyfile(src, dst)
+
 PATH = "/Users/victorguerand/test_Archive/formatage_donnee"
 
 PATH_TO_DATASET = "/Users/victorguerand/Desktop/03 - Le politique parle au citoyen/Rocard - discours"
@@ -15,10 +19,20 @@ def create_mot_clef():
     print(c)
 
 
+def normalize_path(path):
+    path_input = path.replace('\\', '/')
+    return path_input
+
+
 def read_discours(path):
-    with open("testfile.text", "r") as file:
-       r = file.read()
-    return r
+    path = path[2:]
+    try:
+        with open(PATH_TO_DATASET + path, "r") as file:
+            r = file.read()
+        return r
+    except Exception as e:
+        print('\033[93m {} \033[0m'.format(e))
+
 
 def main():
     print(sys.path)
@@ -40,11 +54,10 @@ def main():
             print('\033[93m Warning Empty data \033[0m')
             continue
 
-        if data['path'] is not None:
-            path_input = data['path'].replace('\\', '/')
-            data['path'] = path_input
+        data['path'] = normalize_path(data['path'])
 
-            print(path_input)
+        data['text'] = read_discours(data['path'])
+
         if os.path.isdir(PATH + '/' + el['auteur'] + '/' + el['id']) is False:
             print('\033[92m  Directory  {} created  \033[0m'.format(el['auteur'] + '/' + el['id']))
             os.mkdir(PATH + '/' + el['auteur'] + '/' + el['id'])
