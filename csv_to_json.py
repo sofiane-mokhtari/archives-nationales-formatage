@@ -110,7 +110,7 @@ def change_month(month):
 		return "06"
 	elif (month == "juillet"):
 		return "07"
-	elif (month == "aout"):
+	elif (month == "août"):
 		return "08"
 	elif (month == "septembre"):
 		return "09"
